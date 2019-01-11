@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First email to confirm attendance at Gifted &amp; Talented Evening</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>aaaG&amp;T Evening Response email</name>
+    <style>formalLetter</style>
+    <subject>Gifted &amp; Talented and Scholarship Information Evening: 8 May, 2018</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+Dear {!Lead.FirstName},
+
+Thank you for booking into our Gifted &amp; Talented and Scholarship Information Evening at 5.30pm on Wednesday 8 May, 2019.
+
+We will email you again one week prior to the event to remind you and provide further details.
+
+In the meantime, if there&apos;s anything else we can help you with, please do not hesitate to contact us.
+
+To keep up to date with what’s happening across our K-12 St Andrew’s community, visit our facebook page. It’s updated daily during term time with news, photos, events and mini videos.
+
+Yours Sincerely,
+
+{!User.FirstName} {!User.LastName}
+Enrolments</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

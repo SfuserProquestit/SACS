@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>email to Directors who didn&apos;t come</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>SRT Director you didn&apos;t come</name>
+    <style>formalLetter</style>
+    <subject>School Readiness Talk</subject>
+    <textOnly>Dear {!Contact.OwnerFirstName}
+
+
+It&apos;s unfortunate that you weren&apos;t able to attend our recent School Readiness Talk.  There are some useful information and links from the presentation in the attached &apos;School Readiness&apos; document.
+
+
+The next event on our Kinder calendar is our Kindergarten Open Morning that we are having on September 11.  It&apos;s wonderful opportunity for pre school parents and children to come along and see our Kindergarten class in action, meet our Infants teaching staff and tour our Junior School facilities. I will be sending out invitations for that event soon.
+
+
+I look forward to future opportunities for us to continue to work together for great outcomes for our school starters.
+
+
+
+Regards
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+phone 02 92869507 email BPerry@sacs.nsw.edu.au</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

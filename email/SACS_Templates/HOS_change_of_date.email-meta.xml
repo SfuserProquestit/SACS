@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>hos change of date from 15 may to 22 may</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>HOS change of date</name>
+    <style>formalLetter</style>
+    <subject>Head of School Tour - CHANGE OF DATE (now Tuesday 22 May)</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+Dear {!Lead.FirstName},
+
+Due to NAPLAN being conducted on Tuesday 15 May, our planned Head of School tour has been moved to Tuesday 22 May.  We will email you closer to the date to remind you of the tour and provide further details.
+
+I apologise for any inconvenience caused and look forward to seeing you on tour!
+
+
+
+Regards
+
+Robyn Pedley
+Enrolments Manager</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

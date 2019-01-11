@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite to school readiness talk</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>School Readiness Talk DIRECTOR invite</name>
+    <style>freeForm</style>
+    <subject>School Readiness Talk: 15 August - St Andrew&apos;s Cathedral School</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+Pre-School Directors, staff and parents of {!Account.Name} are invited to come along to a talk by education experts about the recent research regarding school readiness.
+
+
+
+On the evening you will have the opportunity to:
+
+• Find out what the school readiness indicators are:
+
+• What preparations you can make at home to support your child&apos;s transition to school;
+
+• Talk to Kindergarten teachers to find out what happens during a regular school day;
+
+• Listen to experts, hear the latest research on what to do to give your child the best advantage to start their education; and
+
+• Learn the questions to ask your new school to determine which school is the right school for your child.
+
+
+Presentation by:
+
+Mrs Rhonda Robson
+
+Head of Junior School, St Andrews Cathedral School
+
+Mrs Robson is a leading educationalist who has lectured in both Child Development and Educational Psychology and has post graduate qualifications in Counselling Psychology as well as Gifted and Talented Education. Together with our experienced Kindergarten teachers, Mrs Robson will discuss important topics from how to tell if your child is ready for school to preparing your child for school.
+
+
+5.30pm – 6.30pm
+Wednesday, 15 August 2018
+St Andrew’s Cathedral School
+
+Junior School, Level 7, St Andrew’s House
+
+Enter via the school’s foyer, Ground Floor, St Andrew&apos;s House, Sydney Square (opposite the main doors of St Andrew’s Cathedral)
+
+
+
+Optional school tour from 5.00pm - meet in the foyer at 5.00pm if you would like to tour the school, the Kindergarten classrooms and the playground.
+
+
+Bookings are essential
+
+Book your place via https://www.sacs.nsw.edu.au/events/school-readiness-information-evening-kindergarten/
+
+
+
+or contact Robyn Pedley on 9286 9552
+
+
+
+There will be a supervised child minding on the evening for your convenience.
+Parking available on the evening in Wilson’s carpark, St Andrew’s House, 464 Kent Street (enter the car park after 5.00pm for $12.00 flat rate)
+
+
+We look forward to welcoming you to St Andrew&apos;s Cathedral School.
+
+
+
+Robyn Pedley
+
+Enrolments Manager
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

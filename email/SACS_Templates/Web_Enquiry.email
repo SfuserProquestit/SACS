@@ -1,0 +1,39 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p><span class="fn org" style=""><font face="Times New Roman" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+</font><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0pt;"></p><span style="color: rgb(31, 73, 125); font-family: Arial, sans-serif; font-size: 12pt;"><p class="MsoNormal" style="margin: 0cm 0cm 0pt;">{!Lead.CreatedDate}<br>
+<br>
+Dear {!Lead.FirstName},<br>
+<br>
+<font color="#000000" face="Times New Roman">
+
+</font></p><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">Thank
+you for contacting St Andrew's Cathedral School. We will respond to your query
+shortly.</span><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">&nbsp;</span><span style="color: black;"><o:p></o:p></span></p><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><font color="#000000" face="Times New Roman">
+
+</font></p><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">In
+the meantime, you can find out what’s happening at St Andrew’s by visiting our </span><span style="color: black;"><a href="http://www.sacs.nsw.edu.au/" target="_blank"><span style="color: rgb(5, 99, 193); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">website</span></a></span><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">, </span><span style="color: black;"><a href="https://www.facebook.com/StAndrewsCathedralSchool" target="_blank"><span style="color: rgb(5, 99, 193); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">Facebook</span></a></span><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"> page and our </span><span style="color: black;"><a href="http://www.youtube.com/channel/UCEYV-11iLw9ji0zaxxVMd8A/videos" target="_blank"><span style="color: rgb(5, 99, 193); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">official
+Youtube channel</span></a></span><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">. They’re updated regularly during term time with news, photos,
+events and video clips.</span><span style="color: black;"><o:p></o:p></span></p><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><font color="#000000" face="Times New Roman">
+
+</font></p><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"><br>
+Yours sincerely,</span><span style="color: black;"><o:p></o:p></span></p><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><font color="#000000" face="Times New Roman">
+
+</font></p></span><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0pt;"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"><o:p></o:p></span></p><font face="Times New Roman" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+</font><p class="MsoNormal" style="margin: 0cm 0cm 0pt;"><font color="#262626" face="Georgia, serif"><span style="font-size: 13.3333px;"><b>{!User.Name}</b></span></font><br>
+<span style="color: rgb(38, 38, 38); font-family: Georgia, serif; font-size: 9pt;">Enrolments&nbsp;</span></p><font face="Times New Roman" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+</font><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br>&nbsp;</p></span>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Interview Letter</name>
+    <style>formalLetter</style>
+    <subject>Interview Letter</subject>
+    <textOnly>{!Opportunity.CreatedDate}
+
+Dear {!Opportunity.Name},
+
+I wish to confirm your interview with our Registrar, Mr Bruce Perry to discuss {!Opportunity.Student_Name__c}&apos;s possible enrolment.
+
+Date: {!Opportunity.Interview_Date__c}
+Time: {!Opportunity.Interview_Time__c}
+Location: St Andrew&apos;s House
+Sydney Square
+SYDNEY NSW 2000
+
+The Receptionist in the Foyer will advise us of your arrival.
+
+We look forward to meeting you and {!Opportunity.Student_Name__c}
+
+Your Sincerely,
+
+Gail Zietsch
+Enrolment Assistant</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

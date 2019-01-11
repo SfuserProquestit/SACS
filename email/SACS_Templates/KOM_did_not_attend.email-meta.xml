@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>KOM  response to those who did not attend</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>KOM: did not attend</name>
+    <style>freeForm</style>
+    <subject>Kindergarten Open Morning</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+It’s unfortunate that you were unable to come along to our Kindergarten Open Morning.
+
+
+If you would still like to visit St Andrew’s, you are most welcome to come along on a Head of School tour. It’s a great opportunity to tour the school facilities on a regular school day and see what makes our city school so special. You can book via our website.
+
+
+As well as our annual Kindergarten Open Morning, we hold Junior School events regularly throughout the year, including Junior School Information Evening, School Readiness Talk and Gifted &amp; Talented Evening.   Event dates are updated on our website and you are most welcome to book in for a date that suits you.
+
+
+We are still accepting applications for Kindergarten, so if you would like to apply please complete the attached Application for Enrolment form and return. You can also contact our Enrolments team on 9286 9500 to arrange an enrolment interview with our Head of Junior School Mrs Rhonda Robson.
+
+
+To keep up to date with what’s happening across our K-12 St Andrew’s community, visit our facebook page. It’s updated daily during term time with news, photos, events and videos.
+
+
+We would love to hear back from you soon.
+
+
+Regards
+
+
+
+Bruce Perry
+
+Registrar
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9552 mobile 0404 884 852  email bperry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

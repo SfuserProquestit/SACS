@@ -1,0 +1,28 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Opportunity.CreatedDate}
+
+<br><br>Dear {!Opportunity.Name},
+
+<br><br>I wish to acknowledge and confirm your request to change 
+{!Opportunity.Student_Name__c}'s Application for Enrolment to entry in 
+{!Opportunity.Future_Enrolment_Date__c}
+
+The application has been placed on the waiting list and will be subject 
+to places being available.
+<br><br>If you have any further queries, please do not hesitate to contact me on
+ 9286 9579
+
+<br><br>Yours Sincerely<br><br>Gail Zietsch
+<br><b>Enrolment Assistant</b>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

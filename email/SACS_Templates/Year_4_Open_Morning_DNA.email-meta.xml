@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Year 4 Open Morning DNA</name>
+    <style>formalLetter</style>
+    <subject>Year 4 Open Morning</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+It’s unfortunate that you were unable to attend our recent Year 4 Open Morning.
+
+
+If you would like your child to be considered for Year 4 enrolment next year, please let me know and we can arrange a private tour for you asap. Please note that there are a limited number of spaces available and we are seeking to complete the interview process in time for any new students to join the 2019 orientation program. Accordingly, could you please contact us as soon as possible to arrange enrolment.
+
+
+
+Regards
+
+
+
+
+Regards
+
+Robyn Pedley
+Enrolments Manager</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

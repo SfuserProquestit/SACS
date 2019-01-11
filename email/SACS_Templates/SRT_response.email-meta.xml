@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First email sent to confirm they are booked into the School Readiness Talk</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>SRT response</name>
+    <style>formalLetter</style>
+    <subject>School Readiness Talk, Wednesday 15 August</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+
+Dear {!Lead.FirstName}
+
+Thank you for considering St Andrew&apos;s Cathedral School for your child&apos;s education and development.  As requested, you have been booked into the School Readiness Talk on Wednesday 15 August at 5.30pm and we will email one week prior to remind you and provide further details.
+
+Regards
+
+
+
+Robyn Pedley
+Enrolments Manager</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

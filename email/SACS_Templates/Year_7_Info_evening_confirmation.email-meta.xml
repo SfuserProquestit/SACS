@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent a couple of days beforehand to confirm attendance and provide further details</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Year 7 Info evening confirmation</name>
+    <style>freeForm</style>
+    <subject>Explore Year 7 Information Evening Wednesday 28 May</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+
+I am writing to confirm that you are attending our Explore Year 7 Information Evening at 6.30pm, Level 5 Heath Centre, St Andrew&apos;s House, Sydney Square, Sydney. You will be greeted by our staff in the Foyer upon arrival.
+
+
+
+Tea, coffee and refreshments will be served from 6.15pm.
+
+
+
+The evening commences at 6.30pm with a welcome from our Head of Middle School, Mr David Smith, followed by talks from our Head of School, Dr John Collier, current students and our Deputy Head, Teaching and Learning Mr Richard Ford.  Following the talks there will be &quot;taster&quot; classes providing an insight into the Year 7 experience.
+
+
+We anticipate the presentations will conclude by 7.30pm.
+
+
+
+
+To assist in the organisation of this tour, could you please confirm:
+
+
+
+1. Number of people attending: {!Lead.No_of_People_Attending__c}
+
+
+2.  Names of people attending: {!Lead.FirstName} {!Lead.LastName}, {!Lead.Other_Tour_Attendee_Name__c}
+
+
+3. Academic Year and Calendar Year you are considering for your child (if you are not a current student); {!Lead.Year_Group__c} {!Lead.Year_of_Entry__c}
+
+
+4. How you found out about St Andrew’s Cathedral School; and
+
+
+5. Anything you would like covered in the talks or taster classes.
+
+
+
+Please note it is important that you confirm your attendance.
+
+
+
+Kindest regards
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9579  email GZietsch@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

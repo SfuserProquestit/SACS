@@ -1,0 +1,8 @@
+Hello,
+
+{!Campaign.NumberOfResponses} for {!Campaign.Name} has reached it's maximum limit.
+
+Please take necessary action.
+
+Thanks,
+Operation Team

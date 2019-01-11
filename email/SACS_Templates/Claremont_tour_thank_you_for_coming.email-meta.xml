@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when people attended the Claremont tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Claremont tour thank you for coming</name>
+    <style>formalLetter</style>
+    <subject>Tour for Claremont College families: thank you for coming</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+Thank you for coming along on our recent school tour for Claremont College families.  I hope you found the tour insightful and have had all of your questions answered.
+
+
+
+If you wish to apply for enrolment, the next step in the process is to complete and submit the attached Application for Enrolment form.  We will then invite you in for an enrolment interview with myself, the Registrar, approximately 12 months prior to commencing at the school.   Once we have your details on file we will keep in contact with newsletters and event invitations.
+
+
+
+If your application is for less than 12 months prior to commencement, please contact us for an immediate enrolment interview so you can be included in the intake for that year (subject to availability).
+
+
+If you have any further queries, please feel free to contact any of our Enrolments staff on 9286 9500.
+
+
+
+In the meantime, you and your child are welcome explore the following links to videos and information that provide further insight into our wonderful School community and cohort:
+
+
+
+· Senior College
+
+
+o Experience Senior College via video at http://www.youtube.com/user/StAndrewsOfficial?feature=watch
+
+
+o Our Interactive Tour on our website provides a unique insight into Senior College life - http://sacs-px.rtrk.com.au/contentpages/Experience-Senior-College;
+
+
+
+
+· Middle School
+
+
+o Gain an insight into our Middle School from our staff and students in the video “Middle School Matters” at http://www.youtube.com/watch?v=p525U9I0Htw&amp;list=UUEYV-11iLw9ji0zaxxVMd8A&amp;index=10
+
+
+o You can see our Head of Middle School, Mr David Smith speak about our Middle School philosophy and supportive learning culture in this video - http://www.youtube.com/watch?v=XsdUEID8y84&amp;feature=youtu.be
+
+
+o and find further information on our website at http://www.sacs.nsw.edu.au/contentpages/Middle-School;
+
+
+
+
+
+Keep up to date with what’s happening at the School via our Facebook page - https://www.facebook.com/StAndrewsCathedralSchool and more videos on our official youtube channel at
+
+
+- http://www.youtube.com/user/StAndrewsOfficial
+
+
+
+
+
+We look forward to hearing from you and thank you for considering St Andrew’s Cathedral School for your child’s important education and development
+
+
+Regards
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+phone 02 92869507 email BPerry@sacs.nsw.edu.au</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

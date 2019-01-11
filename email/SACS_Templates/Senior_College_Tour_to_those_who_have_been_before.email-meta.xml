@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to Senior College Tour to those that have attended before</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Senior College Tour - to those who have been before</name>
+    <style>freeForm</style>
+    <subject>Senior College Tour 9 September 2014: Step up into our Senior College</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+- Enjoyed our Senior College Tour?
+
+
+If you know of a family who might be interested in St Andrew&apos;s, we&apos;d love you to pass on this invitation to our upcoming Senior College themed tour for 2014.
+
+
+With just a few enrolment spaces left for Senior College in 2015, the tour is a great opportunity to visit our welcoming and progressive city school, tour the facilities, meet our Senior College students and staff.  Details are in the attached invitation.
+
+
+Bookings are essential.  Places can be booked via our website at www.sacs.nsw.edu.au
+
+
+I look forward to welcoming you on the day.
+
+
+Regards
+
+Bruce Perry
+
+Registrar
+
+
+_______________________________________________________
+
+
+Step up into our
+Senior College
+
+Independance - Flexibility - Real-world Learning
+
+
+Make your final school years count.  St Andrew&apos;s Senior College knows how to prepare students for life after school with:
+
+
+Progressive, coeducational environment in the middle of the CBD;
+Greater freedoms, more responsibility and choices that cater to every type of student
+Learning options, with HSC or IB;
+Global learning through interactive technologies and international educational tours.
+
+See for yourself and reserve a place on our Senior College Tour and find out first hand from student guides what St Andrew&apos;s can offer.
+
+
+Tuesday 9 September, 2014
+
+9:00am to 10.30am
+
+St Andrew&apos;s House, Sydney Square, Sydney
+
+Bookings: www.sacs.nsw.edu.au
+
+
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

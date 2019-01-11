@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Web Enquiry</name>
+    <style>formalLetter</style>
+    <subject>Thank you for your Web Enquiry</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+Dear {!Lead.FirstName},
+
+
+Thank you for contacting St Andrew&apos;s Cathedral School. We will respond to your query shortly.
+
+
+In the meantime, you can find out what’s happening at St Andrew’s by visiting our website, Facebook page and our official Youtube channel. They’re updated regularly during term time with news, photos, events and video clips.
+
+
+
+Yours sincerely,
+
+
+
+{!User.Name}
+Enrolments</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

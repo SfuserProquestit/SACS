@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Lead.School_Tour_Date__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>&quot;Tuesday 3 June, 2014&quot;,&quot;Tuesday 17 June, 2014&quot;,&quot;Tuesday 22 July, 2014&quot;,&quot;Wednesday, 2 April 2013 09:00AM (All (K-12))&quot;,&quot;Tuesday, 19 Feb 2013, 09:00 AM (All(K-12))&quot;,&quot;Tuesday, 05 March 2013, 09:00 AM (All(K-12))&quot;,19 March 2013,&quot;Tuesday 7 May, 2013, 09:00AM (All (K-12))&quot;,Tuesday 21 May 2013,Tuesday 28 May 2013,Tuesday 4 June 2013,Tuesday 18 June 2013,Tuesday 23 July 2013,Tuesday 6 August 2013,Tuesday 20 August 2013,Tuesday 27 August 2013,Tuesday 3 September 2013,Tuesday 17 September 2013,Tuesday 15 October 2013,Tuesday 29 October 2013,Tuesday 12 November 2013,Tuesday 26 November 2013,&quot;Tuesday 11 February, 2014&quot;,&quot;Tuesday 25 February, 2014&quot;,&quot;Tuesday 11 March, 2014&quot;,&quot;Tuesday 25 March, 2014&quot;,Tuesday 8 April 2014,&quot;Senior College Tour, Wednesday 9 April 2014&quot;,&quot;Tuesday 6 May, 2014&quot;,&quot;Tuesday 20 May, 2014&quot;</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Lead.School_Tour_Date__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Event Bookings</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>FIRST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

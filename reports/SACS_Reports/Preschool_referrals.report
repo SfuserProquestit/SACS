@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>Lead.Lead_Sub_Source__c</field>
+    </columns>
+    <columns>
+        <field>Lead.School_Tour_Date__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Referred_By__c</field>
+    </columns>
+    <description>who has been referred by which preschools to the twilight tour</description>
+    <format>Tabular</format>
+    <name>Preschool referrals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2012-12-05</startDate>
+    </timeFrameFilter>
+</Report>

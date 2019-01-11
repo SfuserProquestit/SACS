@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - personal response</fullName>
+        <default>false</default>
+        <label>Attended - personal response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Did not attend</fullName>
+        <default>false</default>
+        <label>Did not attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not yet visited</fullName>
+        <default>false</default>
+        <label>Not yet visited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt Out</fullName>
+        <default>false</default>
+        <label>Opt Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personal response</fullName>
+        <default>false</default>
+        <label>Personal response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>T Tour invite sent</fullName>
+        <default>false</default>
+        <label>T Tour invite sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>T Tour reminder sent</fullName>
+        <default>false</default>
+        <label>T Tour reminder sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited</fullName>
+        <default>false</default>
+        <label>Visited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited met with Director</fullName>
+        <default>false</default>
+        <label>Visited met with Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Will Attend</fullName>
+        <default>false</default>
+        <label>Will Attend</label>
+    </standardValue>
+</StandardValueSet>

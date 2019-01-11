@@ -1,0 +1,36 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Opportunity.CreatedDate}
+<br>
+<br>Dear {!Opportunity.Name},
+<br>
+<br>I wish to confirm your interview with our Registrar, Mr Bruce Perry 
+to discuss {!Opportunity.Student_Name__c}'s possible enrolment.
+<br>
+<br><b>Date: {!Opportunity.Interview_Date__c}
+<br>Time: {!Opportunity.Interview_Time__c}
+<br>Location: St Andrew's House
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                  Sydney Square
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                  SYDNEY NSW 2000
+</b><br>
+<br>The Receptionist in the Foyer will advise us of your arrival.
+<br>
+<br>We look forward to meeting you and {!Opportunity.Student_Name__c}
+<br>
+<br>Your Sincerely,
+<br>
+<br>
+Gail Zietsch
+<br><b>Enrolment Assistant<br><br><br><br><br><br><br></b><div align="center"><b>Bruce Perry
+</b><br><font size="2">B.Ed., MACE,ADAPEM</font><br><br><b>REGISTRAR</b></div><br>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

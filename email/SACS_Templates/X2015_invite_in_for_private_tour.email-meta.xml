@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>inviting 2015 enquiries on a private tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>x2015 invite in for private tour</name>
+    <style>freeForm</style>
+    <subject>Private tour invitation: 2015 enrolment</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+Thank you for your recent tour booking.
+
+
+As you are enquiring into {!Lead.Year_Group__c}, 2015, we would like to invite you in for an enrolment interview and private tour.  Coming in before the school tour will give you the time to consider enrolment for next year and attend any new student examinations or orientations this term.
+
+
+If you would like to arrange an appointment, please contact me ASAP.
+
+
+We look forward to welcoming you and your family to St Andrew&apos;s Cathedral School.
+
+
+
+
+Kindest regards
+
+
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

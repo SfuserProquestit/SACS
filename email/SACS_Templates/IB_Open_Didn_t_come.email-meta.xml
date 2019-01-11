@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>email to those who didn&apos;t come</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>IB Open: Didn&apos;t come</name>
+    <style>freeForm</style>
+    <subject>IB Open Evening</subject>
+    <textOnly>Dear {!Lead.FirstName}&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+
+
+
+It is unfortunate that you were unable to attend our recent International Baccalaureate (IB) Open Evening. However, it’s not too late to be part of the IB selection process. You are welcome to come along to the IB/HSC subject information night next term and opt to choose the IB if you feel it is right for your child and family. You will receive an invitation to the subject information night next term.
+
+
+
+
+If you would like a little more information on the program, please find attached the IB information booklet (handed out on the evening).Our IB Coordinator, Mrs Sharon Munro, is happy to answer any questions you may have. You can contact her directly on 9286 9528 or via email.
+
+
+
+
+You can also find more IB information on our website.
+
+
+
+
+Whatever academic choice is right for your child, SACS is here as a strong support base through your child’s important - and final - years of school. Both the IB and HSC at SACS are taught by passionate staff who are determined to ensure students are well-equipped both academically and socially to enter the post-school world.
+
+
+Regards,
+
+
+Robyn
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

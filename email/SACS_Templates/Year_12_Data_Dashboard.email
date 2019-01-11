@@ -1,0 +1,15 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[{!Lead.CreatedDate}<br><br>Dear {!Lead.FirstName},<div><br><font face="Times New Roman"></font>
+<p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif" style="font-size: 12pt;">Following our recent Head of School Tour we have received requests for a copy of the data dashboard that is sent to parents (Mr Swibel mentioned this in his talk).</font></p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;">Attached is a copy of a recent report sent to Year 12 parents which provides an overview and insight into the dashboard contents.</p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;">Regards</p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><br></p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><span style="font-size: 12pt;">Robyn Pedley</span></p><span class="fn org"><b>Enrolments Manager</b><br></span></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite to tour Year 7, 2019</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Year 7, 2019 tour invite</name>
+    <style>freeForm</style>
+    <subject>Year 7, 2019 Applications and Tour Invitation</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+Thank you for your enquiry regarding potential Year 7, 2019 enrolment.
+
+
+Enrolment interviews for the year group have been conducted and I&apos;m pleased to advise that we are still accepting applications for the year group, however applications need to be submitted as soon as possible. Interviews will be arranged as soon as applications are received.  All interviews include a private tour of the school.
+
+
+
+If you have not yet had the chance to visit the school, I would like to invite you along to a special Head of School Tour for Year 7, 2019 families on Tuesday 10 April at 9.00am. This tour provides the opportunity to see the school in action, meet our staff and speak with student representatives.
+
+
+
+Bookings essential. You can book in directly to the tour via our website at
+
+https://www.sacs.nsw.edu.au/book-a-tour/tour-bookings/
+
+
+
+I encourage you to bring your child along to the tour.
+
+
+
+
+Kind regards
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9552 mobile 0404 884 852 email rpedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550
+
+
+
+Catch up with what’s happening at St Andrew’s Cathedral School via Facebook!
+
+
+
+
+You are receiving this invitation as you have previously indicated interest in enrolment at St Andrew’s Cathedral School.  We would love you to come to along on our future events however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

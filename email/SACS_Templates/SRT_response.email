@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif"><span style="mso-spacerun: yes;"><font color="#000000"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">{!Lead.CreatedDate}</span></font></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif"><span style="mso-spacerun: yes;"><font color="#000000"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"></span></font></span></font>&nbsp;</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif"><span style="mso-spacerun: yes;"><font color="#000000"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">Dear {!Lead.FirstName}&nbsp;</span></font></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif"><span style="mso-spacerun: yes;"><font color="#000000"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">Thank you for considering St Andrew's Cathedral School for your child's education and development.&nbsp; As requested, you have been booked into the <strong>School Readiness Talk</strong>&nbsp;on <strong>Wednesday 15 August&nbsp;</strong><b>at 5.30pm </b>and we will email one week prior to remind you and provide further details.</span></font></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif"><span style="mso-spacerun: yes;"><font color="#000000"><span style="color: rgb(31, 73, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;">Regards</span></font></span></font></p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><br></p><span class="fn org" style="color: rgb(0, 0, 0); font-family: arial;">Robyn Pedley<br><b>Enrolments Manager</b><br></span>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

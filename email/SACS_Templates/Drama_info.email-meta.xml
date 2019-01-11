@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Drama and middle school info</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Drama info</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School</subject>
+    <textOnly>As drama is an area of interest to [  ], I&apos;ve attached the following links which provide a good insight into our fantastic drama program:
+
+
+A behind the scenes video log of last year’s school production of Beauty and the Beast; and
+This fun pop up performance of Beauty and the Beast in the Commonwealth Bank building in the city.
+
+
+Details of our Drama Department are on our website and as theatre is an area of interest to you, we would be certain to include a visit to our Black Box Theatre when you come for a tour.
+
+
+
+
+There is an after-school Year 7 Drama Club and from Year 8, there is a Middle School Drama ensemble. Our Head of Drama, Jane Simmons, is a well-known improvisation coach and there are great opportunities for students to participate in inter-school improvisation competitions.
+
+
+
+
+In the meantime, please see the links to videos and information below that give you an insight into our Middle School culture:
+
+
+This video - Middle School Matters - has interviews with both staff and students;
+This video shows our Head of Middle School, Mr David Smith, speaking about our Middle School philosophy and supportive learning culture; and
+Find further Middle School information on our website.
+
+
+You can keep up-to-date with what’s happening at the School via our Facebook page and you can view more videos on our official YouTube channel.
+
+
+
+
+If I can be of further assistance, please feel free to contact me directly on 9286 9552.
+
+
+
+
+
+
+
+
+
+Regards
+
+
+Robyn
+
+
+
+
+
+
+
+
+
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

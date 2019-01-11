@@ -1,0 +1,16 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Lead.CreatedDate}<br><br>Dear {!Lead.FirstName},<br><font face="Times New Roman"></font>
+<p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif">I refer to your booking on our Head of School Tour on 25 August.</font></p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif">Due to unforseen circumstances, the tour has been moved to <strong>Tuesday 18 August</strong>.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif">We will be in touch closer to the date to remind you and provide further details.</font></p><p>We apologise for any inconvenience this may have caused and look forward to welcoming you on tour on 18 August.</p><span class="fn org"><p>&nbsp;</p><p>Yours Sincerely,<br><br>Robyn Pedley<br><b>Enrolment Assistant</b><br></p></span>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

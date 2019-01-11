@@ -1,0 +1,15 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<font face="arial">{!Lead.CreatedDate}</font><br><br><font face="arial">Dear {!Lead.FirstName},</font><div style=""><br><font face="arial"></font>
+<p class="MsoNormal" style="font-family: arial; margin: 0cm 0cm 10pt;"><font face="Arial,Sans-Serif">Due to NAPLAN being conducted on Tuesday 15 May, our planned Head of School tour has been moved to <b>Tuesday 22 May.&nbsp;</b>&nbsp;We will email you closer to the date to remind you of the tour and provide further details.</font></p><p class="MsoNormal" style="font-family: arial; margin: 0cm 0cm 10pt;">I apologise for any inconvenience caused and look forward to seeing you on tour!</p><p class="MsoNormal" style="font-family: arial; margin: 0cm 0cm 10pt;"><br></p><p class="MsoNormal" style="margin: 0cm 0cm 10pt;"><span style="font-size: 12pt;"><font face="arial">Regards</font></span></p><span class="fn org" style="font-family: arial;">Robyn Pedley<br><b>Enrolments Manager</b><br></span></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

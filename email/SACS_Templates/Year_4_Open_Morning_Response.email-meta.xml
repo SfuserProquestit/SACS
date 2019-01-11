@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First email sent to confirm they are booked into the Explore Year 4 open morning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Year 4 Open Morning Response</name>
+    <style>formalLetter</style>
+    <subject>Year 4 Open Morning - Tuesday 30 October, 2018</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+
+
+Be More in Year 4, 2019!
+
+
+
+Dear {!Lead.FirstName}
+
+We are delighted that you will joining us for our special open morning, Explore Year 4! on Tuesday 30 October at 9.00am. The morning provide a wonderful opportunity to experience our vibrant Junior School.
+
+We will email again one week prior to remind you and provide further details.
+
+
+
+Regards
+
+Robyn Pedley
+Enrolments Manager</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

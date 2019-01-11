@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Standard email with Bruce&apos;s signature</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>aaBruce email</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School</subject>
+    <textOnly>Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

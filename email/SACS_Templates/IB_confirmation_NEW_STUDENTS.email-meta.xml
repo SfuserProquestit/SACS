@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent a couple of days beforehand to confirm attendance and provide further details</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>IB confirmation NEW STUDENTS</name>
+    <style>freeForm</style>
+    <subject>IB Information Evening, Tuesday 19 June</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+It is most exciting that your child is considering the IB!
+
+
+
+Just to confirm that your booking for our IB Open Evening on Tuesday 19 June at 5.30pm.
+
+
+
+Please enter the Senior College via the Ground Floor, Bishop Barry Centre, 51 Druitt Street, Sydney.
+
+
+
+You will be greeted by our staff in the Foyer on arrival.
+
+
+
+The evening commences at 5.30pm with a welcome from our Head of School, Dr Collier, followed by a presentation from our Director or Learning, Mrs Sharon Munro and past and current IB students.  There will also be guest speakers on the evening.
+
+
+We anticipate the presentations will conclude by 7.00pm.
+
+
+
+To assist in the organisation of this tour, could you please advise:
+
+
+
+1. Names and number of people attending; {!Lead.No_of_People_Attending__c}
+
+
+{!Lead.FirstName} {!Lead.LastName}, {!Lead.Other_Tour_Attendee_Name__c}
+
+
+2. Academic Year and Calendar Year you are considering for your child (if you are not a current student);
+
+{!Lead.Year_Group__c}, {!Lead.Year_of_Entry__c}
+
+
+3. How you found out about St Andrew’s Cathedral School; and
+
+
+4. Anything you would like covered in the presentations or on the talk.
+
+
+
+Please note it is important that you confirm your attendance.
+
+
+
+Kindest regards
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9552  email rpedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

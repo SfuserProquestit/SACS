@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent a couple of days beforehand to confirm attendance and provide further details</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>IB confirmation final</name>
+    <style>freeForm</style>
+    <subject>IB Information Evening, Tuesday 14 June - 6.00pm start</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+
+I am writing to confirm that your booking for our IB Open Evening on Tuesday 9 June at 6.30pm, Ground Floor, M C Newth Auditorium, Bishop Barry Centre, 51 Druitt Street, Sydney. You will be greeted by our staff in the Foyer on arrival.
+
+
+
+The evening commences at 6.30pm with a welcome from our Head of School, Dr Collier, followed by a presentation from our Director or Learning, Mrs Sharon Munro and past and current IB students.  There will also be guest speakers on the evening.
+
+
+We anticipate the presentations will conclude by 7.30pm.
+
+
+
+To assist in the organisation of this tour, could you please advise:
+
+
+
+1. Names and number of people attending;
+
+
+2. Academic Year and Calendar Year you are considering for your child (if you are not a current student);
+
+
+3. How you found out about St Andrew’s Cathedral School; and
+
+
+4. Anything you would like covered in the presentations or on the tour.
+
+
+
+Please note it is important that you confirm your attendance.
+
+
+
+Kindest regards
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9579  email GZietsch@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

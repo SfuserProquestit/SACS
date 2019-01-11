@@ -1,0 +1,2474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>Address</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Age_of_Student__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(! ISBLANK(  Birthdate__c ) , FLOOR( (TODAY() -  Birthdate__c )/365.2425) , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age of Student</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alumni__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is parent part of Alumni?</inlineHelpText>
+        <label>Alumni</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Application_Provided__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has application been provided based on Lead Stage?</inlineHelpText>
+        <label>Application Provided</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>true</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Birthdate__c</fullName>
+        <externalId>false</externalId>
+        <label>Birthdate</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Child_s_name__c</fullName>
+        <description>Enter in the child or childrens names - this is for REFERENCE only - this is not the student record when application is received - that is entered as a child contact under family</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter in the child or childrens names - this is for REFERENCE only - this is not the student record when application is received - that is entered as a child contact under family</inlineHelpText>
+        <label>Child&apos;s name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Christian__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Christian</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Church_Affiliation__c</fullName>
+        <externalId>false</externalId>
+        <label>Church Affiliation</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Company</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Creche_no__c</fullName>
+        <description>Number of children and names in creche</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of children and names in creche</inlineHelpText>
+        <label>Creche no</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Date &amp; Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Application__c</fullName>
+        <description>Date Application for Enrolment received</description>
+        <externalId>false</externalId>
+        <label>Date of Application</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Enquiry__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of Enquiry</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Enrolment__c</fullName>
+        <description>Date Offer of  Enrolment Accepted</description>
+        <externalId>false</externalId>
+        <label>Date of Enrolment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EXPLORE_YEAR_7_GROUP__c</fullName>
+        <description>Group for Explore Year 7 based on YoE</description>
+        <externalId>false</externalId>
+        <label>EXPLORE YEAR 7 GROUP</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Enrolment_Period__c</fullName>
+        <externalId>false</externalId>
+        <label>Enrolment Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Less than 1 Year</fullName>
+                    <default>false</default>
+                    <label>Less than 1 Year</label>
+                </value>
+                <value>
+                    <fullName>1 Year to 3 Years</fullName>
+                    <default>false</default>
+                    <label>1 Year to 3 Years</label>
+                </value>
+                <value>
+                    <fullName>More than 3 Years</fullName>
+                    <default>false</default>
+                    <label>More than 3 Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Grade_Range__c</fullName>
+        <description>It gets auto-updated based on year group</description>
+        <externalId>false</externalId>
+        <label>Grade Range</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0-6</fullName>
+                    <default>false</default>
+                    <label>0-6</label>
+                </value>
+                <value>
+                    <fullName>7-9</fullName>
+                    <default>false</default>
+                    <label>7-9</label>
+                </value>
+                <value>
+                    <fullName>10-12</fullName>
+                    <default>false</default>
+                    <label>10-12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>How_did_you_hear_about_us__c</fullName>
+        <externalId>false</externalId>
+        <label>How did you hear about us?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Colleagues, friends, family</fullName>
+                    <default>false</default>
+                    <label>Colleagues, friends, family</label>
+                </value>
+                <value>
+                    <fullName>Students, former students</fullName>
+                    <default>false</default>
+                    <label>Students, former students</label>
+                </value>
+                <value>
+                    <fullName>Work in the city</fullName>
+                    <default>false</default>
+                    <label>Work in the city</label>
+                </value>
+                <value>
+                    <fullName>SACS website, facebook, twitter</fullName>
+                    <default>false</default>
+                    <label>SACS website, facebook, twitter</label>
+                </value>
+                <value>
+                    <fullName>Advertisement</fullName>
+                    <default>false</default>
+                    <label>Advertisement</label>
+                </value>
+                <value>
+                    <fullName>School Choice Expo</fullName>
+                    <default>false</default>
+                    <label>School Choice Expo</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>If_Alumni__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If an ex-student of St Andrew’s, final Year and Year group</inlineHelpText>
+        <label>If Alumni</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastTransferDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Rating__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(IF( ISPICKVAL( Rating , &quot;Very Hot&quot;) , &quot;/img/samples/flag_red.gif&quot;, IF( ISPICKVAL( Rating , &quot;Hot&quot;) , &quot;/img/samples/flag_red.gif&quot;, IF(ISPICKVAL( Rating , &quot;Warm&quot;) , &quot;/img/samples/flag_yellow.gif&quot;, &quot;/img/samples/flag_green.gif&quot;))) , &quot;Lead Rating&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Rating</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score 1</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score 2</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score 3</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score 4</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Stage__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The current status based on request.</inlineHelpText>
+        <label>Lead Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>School Tour Requested</fullName>
+                    <default>false</default>
+                    <label>School Tour Requested</label>
+                </value>
+                <value>
+                    <fullName>Enquiry</fullName>
+                    <default>false</default>
+                    <label>Enquiry</label>
+                </value>
+                <value>
+                    <fullName>Meeting with Registrar</fullName>
+                    <default>false</default>
+                    <label>Meeting with Registrar</label>
+                </value>
+                <value>
+                    <fullName>Application Received</fullName>
+                    <default>false</default>
+                    <label>Application Received</label>
+                </value>
+                <value>
+                    <fullName>Offered</fullName>
+                    <default>false</default>
+                    <label>Offered</label>
+                </value>
+                <value>
+                    <fullName>Enrolled</fullName>
+                    <default>false</default>
+                    <label>Enrolled</label>
+                </value>
+                <value>
+                    <fullName>Current Student</fullName>
+                    <default>false</default>
+                    <label>Current Student</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead_Sub_Source__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Based on Web and Marketing Efforts &amp; Campaigns</inlineHelpText>
+        <label>Lead Sub Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>School Tour</fullName>
+                    <default>false</default>
+                    <label>School Tour</label>
+                </value>
+                <value>
+                    <fullName>Quick Enquiry</fullName>
+                    <default>true</default>
+                    <label>Quick Enquiry</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+                <value>
+                    <fullName>Mass Email</fullName>
+                    <default>false</default>
+                    <label>Mass Email</label>
+                </value>
+                <value>
+                    <fullName>Pre-School Visits</fullName>
+                    <default>false</default>
+                    <label>Pre-School Visits</label>
+                </value>
+                <value>
+                    <fullName>Expos</fullName>
+                    <default>false</default>
+                    <label>Expos</label>
+                </value>
+                <value>
+                    <fullName>Concerts</fullName>
+                    <default>false</default>
+                    <label>Concerts</label>
+                </value>
+                <value>
+                    <fullName>Word of Mouth</fullName>
+                    <default>false</default>
+                    <label>Word of Mouth</label>
+                </value>
+                <value>
+                    <fullName>Going to Sites_Visits</fullName>
+                    <default>false</default>
+                    <label>Going to Sites_Visits</label>
+                </value>
+                <value>
+                    <fullName>Kinder event</fullName>
+                    <default>false</default>
+                    <label>Kinder event</label>
+                </value>
+                <value>
+                    <fullName>events@sacs email</fullName>
+                    <default>false</default>
+                    <label>events@sacs email</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Father</fullName>
+                    <default>false</default>
+                    <label>Father</label>
+                </value>
+                <value>
+                    <fullName>Mother</fullName>
+                    <default>false</default>
+                    <label>Mother</label>
+                </value>
+                <value>
+                    <fullName>Guardian</fullName>
+                    <default>false</default>
+                    <label>Guardian</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Near By</fullName>
+                    <default>false</default>
+                    <label>Near By</label>
+                </value>
+                <value>
+                    <fullName>Accessible</fullName>
+                    <default>false</default>
+                    <label>Accessible</label>
+                </value>
+                <value>
+                    <fullName>Far</fullName>
+                    <default>false</default>
+                    <label>Far</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>No_of_People_Attending__c</fullName>
+        <externalId>false</externalId>
+        <label>No. of People Attending</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_of_School_Age_Children__c</fullName>
+        <description>Enter number of school age children that the pre school has for the upcoming school year</description>
+        <externalId>false</externalId>
+        <label>No of School Age Children</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Overseas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opportunity Overseas</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Sub_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Sub Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>School Tour</fullName>
+                    <default>false</default>
+                    <label>School Tour</label>
+                </value>
+                <value>
+                    <fullName>Quick Enquiry</fullName>
+                    <default>false</default>
+                    <label>Quick Enquiry</label>
+                </value>
+                <value>
+                    <fullName>Going to Sites</fullName>
+                    <default>false</default>
+                    <label>Going to Sites</label>
+                </value>
+                <value>
+                    <fullName>Mass Email</fullName>
+                    <default>false</default>
+                    <label>Mass Email</label>
+                </value>
+                <value>
+                    <fullName>Concerts</fullName>
+                    <default>false</default>
+                    <label>Concerts</label>
+                </value>
+                <value>
+                    <fullName>Expos</fullName>
+                    <default>false</default>
+                    <label>Expos</label>
+                </value>
+                <value>
+                    <fullName>Visits</fullName>
+                    <default>false</default>
+                    <label>Visits</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Other_Tour_Attendee_Name__c</fullName>
+        <description>Enter in any other names of attendees coming along to a tour</description>
+        <externalId>false</externalId>
+        <label>Other Tour Attendee Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Overseas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is he/she an overseas student?</inlineHelpText>
+        <label>Overseas</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Phone_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone (Business)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Postal_Range_Ranking__c</fullName>
+        <externalId>false</externalId>
+        <label>Postal Range Ranking</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Postal_Range__c</fullName>
+        <externalId>false</externalId>
+        <label>Postal Range</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Postal_Ranking__c</fullName>
+        <externalId>false</externalId>
+        <label>Postcode Ranking</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Postcode__c</fullName>
+        <externalId>false</externalId>
+        <label>Postcode</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Within 10 Kms</fullName>
+                    <default>false</default>
+                    <label>Within 10 Kms</label>
+                </value>
+                <value>
+                    <fullName>11-15 Kms</fullName>
+                    <default>false</default>
+                    <label>11-15 Kms</label>
+                </value>
+                <value>
+                    <fullName>North</fullName>
+                    <default>false</default>
+                    <label>North</label>
+                </value>
+                <value>
+                    <fullName>West</fullName>
+                    <default>false</default>
+                    <label>West</label>
+                </value>
+                <value>
+                    <fullName>Southern</fullName>
+                    <default>false</default>
+                    <label>Southern</label>
+                </value>
+                <value>
+                    <fullName>Outer suburban</fullName>
+                    <default>false</default>
+                    <label>Outer suburban</label>
+                </value>
+                <value>
+                    <fullName>Regional</fullName>
+                    <default>false</default>
+                    <label>Regional</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pre_School_Directions__c</fullName>
+        <description>Enter specific pre school location or corporate clients</description>
+        <externalId>false</externalId>
+        <label>Pre-School Directions</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_Schools_No_of_Referrals__c</fullName>
+        <description>Add in number of any applications received from the pre-school</description>
+        <externalId>false</externalId>
+        <label>Pre-Schools No. of Referrals</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <inlineHelpText>Depends on Lead Scoring</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Referred_By__c</fullName>
+        <description>For name of person who made referral</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of person who made referral</inlineHelpText>
+        <label>Referred By</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Referred_Student_Name_and_Grade__c</fullName>
+        <description>enter details of any students referred</description>
+        <externalId>false</externalId>
+        <label>Referred Student Name</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Religion__c</fullName>
+        <externalId>false</externalId>
+        <label>Religion</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Anglican</fullName>
+                    <default>false</default>
+                    <label>Anglican</label>
+                </value>
+                <value>
+                    <fullName>Christian</fullName>
+                    <default>false</default>
+                    <label>Christian</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFGA__CorrelationID__c</fullName>
+        <defaultValue>&quot;none&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Correlation ID Field is used by Salesforce for Google AdWords for automatic correlation of web information with new leads created through a standard web-to-lead form</description>
+        <externalId>false</externalId>
+        <label>CorrelationID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFGA__Correlation_Data__c</fullName>
+        <defaultValue>&quot;none&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Correlation Data field is designed for use by Salesforce for Google AdWords to store all relevant lead tracking information about a web generated lead</description>
+        <externalId>false</externalId>
+        <label>Correlation Data</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SFGA__Web_Source__c</fullName>
+        <defaultValue>&quot;none&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is designed for future use by Salesforce for Google AdWords as an alternative to the Lead Source field for web generated leads.</description>
+        <externalId>false</externalId>
+        <label>Web Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFSSDupeCatcher__Override_DupeCatcher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Lead Override DupeCatcher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>School_Level__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the school level in which student seeks to have admission.</inlineHelpText>
+        <label>School Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Junior School</fullName>
+                    <default>false</default>
+                    <label>Junior School</label>
+                </value>
+                <value>
+                    <fullName>Middle School</fullName>
+                    <default>false</default>
+                    <label>Middle School</label>
+                </value>
+                <value>
+                    <fullName>Senior College</fullName>
+                    <default>false</default>
+                    <label>Senior College</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>School_Tour_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>School Tour Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tuesday 19 February, 2019</fullName>
+                    <default>false</default>
+                    <label>Tuesday 19 February, 2019</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 5 March, 2019</fullName>
+                    <default>false</default>
+                    <label>Tuesday 5 March, 2019</label>
+                </value>
+                <value>
+                    <fullName>Gifted &amp; Talented Evening, 8 May 2019</fullName>
+                    <default>false</default>
+                    <label>Gifted &amp; Talented Evening, 8 May 2019</label>
+                </value>
+                <value>
+                    <fullName>Explore Year 7, 28 May 2019</fullName>
+                    <default>false</default>
+                    <label>Explore Year 7, 28 May 2019</label>
+                </value>
+                <value>
+                    <fullName>IB Information Evening, 18 June 2019</fullName>
+                    <default>false</default>
+                    <label>IB Information Evening, 18 June 2019</label>
+                </value>
+                <value>
+                    <fullName>ZZZ__ Tuesday 16 October, 2012, 09:00AM (All (K-12))</fullName>
+                    <default>false</default>
+                    <label>ZZZ__ Tuesday 16 October, 2012, 09:00AM (All (K-12))</label>
+                </value>
+                <value>
+                    <fullName>Wednesday, 2 April 2013 09:00AM (All (K-12))</fullName>
+                    <default>false</default>
+                    <label>Wednesday, 2 April 2013 09:00AM (All (K-12))</label>
+                </value>
+                <value>
+                    <fullName>Tuesday, 19 Feb 2013, 09:00 AM (All(K-12))</fullName>
+                    <default>false</default>
+                    <label>Tuesday, 19 Feb 2013, 09:00 AM (All(K-12))</label>
+                </value>
+                <value>
+                    <fullName>Tuesday, 05 March 2013, 09:00 AM (All(K-12))</fullName>
+                    <default>false</default>
+                    <label>Tuesday, 05 March 2013, 09:00 AM (All(K-12))</label>
+                </value>
+                <value>
+                    <fullName>19 March 2013</fullName>
+                    <default>false</default>
+                    <label>19 March 2013</label>
+                </value>
+                <value>
+                    <fullName>Twilight Tour Wednesday 3 April 2013</fullName>
+                    <default>false</default>
+                    <label>Twilight Tour Wednesday 3 April 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 7 May, 2013, 09:00AM (All (K-12))</fullName>
+                    <default>false</default>
+                    <label>Tuesday 7 May, 2013, 09:00AM (All (K-12))</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 21 May 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 21 May 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 28 May 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 28 May 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 4 June 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 4 June 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 18 June 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 18 June 2013</label>
+                </value>
+                <value>
+                    <fullName>IB Open Evening, Tuesday 11 June</fullName>
+                    <default>false</default>
+                    <label>IB Open Evening, Tuesday 11 June</label>
+                </value>
+                <value>
+                    <fullName>Year 7 Information Evening Wednesday 28 May</fullName>
+                    <default>false</default>
+                    <label>Year 7 Information Evening Wednesday 28 May</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 23 July 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 23 July 2013</label>
+                </value>
+                <value>
+                    <fullName>School Readiness Talk Wednesday 31 July, 2013</fullName>
+                    <default>false</default>
+                    <label>School Readiness Talk Wednesday 31 July, 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 6 August 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 6 August 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 20 August 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 20 August 2013</label>
+                </value>
+                <value>
+                    <fullName>Gifted &amp; Talented Information Evening, Wednesday 21 August</fullName>
+                    <default>false</default>
+                    <label>Gifted &amp; Talented Information Evening, Wednesday 21 August</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 27 August 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 27 August 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 3 September 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 3 September 2013</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour, Tuesday 10 September 2013</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour, Tuesday 10 September 2013</label>
+                </value>
+                <value>
+                    <fullName>K Open Morning Wednesday 11 September</fullName>
+                    <default>false</default>
+                    <label>K Open Morning Wednesday 11 September</label>
+                </value>
+                <value>
+                    <fullName>Chorister Auditions Saturday 14 September, 2013</fullName>
+                    <default>false</default>
+                    <label>Chorister Auditions Saturday 14 September, 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 17 September 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 17 September 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 15 October 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 15 October 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 29 October 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 29 October 2013</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour, Thursday 7 November 2013</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour, Thursday 7 November 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 12 November 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 12 November 2013</label>
+                </value>
+                <value>
+                    <fullName>Claremont College Tour Tuesday 19 November 2013</fullName>
+                    <default>false</default>
+                    <label>Claremont College Tour Tuesday 19 November 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 26 November 2013</fullName>
+                    <default>false</default>
+                    <label>Tuesday 26 November 2013</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 11 February, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 11 February, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 25 February, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 25 February, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 11 March, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 11 March, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 25 March, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 25 March, 2014</label>
+                </value>
+                <value>
+                    <fullName>Chorister Auditions Sunday 30 March, 2014</fullName>
+                    <default>false</default>
+                    <label>Chorister Auditions Sunday 30 March, 2014</label>
+                </value>
+                <value>
+                    <fullName>Junior School Twilight Tour, Wednesday 2 April 2014</fullName>
+                    <default>false</default>
+                    <label>Junior School Twilight Tour, Wednesday 2 April 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 8 April 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 8 April 2014</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour, Wednesday 9 April 2014</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour, Wednesday 9 April 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 6 May, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 6 May, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 20 May, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 20 May, 2014</label>
+                </value>
+                <value>
+                    <fullName>Gifted &amp; Talented Information Evening, Wednesday 21 May, 2014</fullName>
+                    <default>false</default>
+                    <label>Gifted &amp; Talented Information Evening, Wednesday 21 May, 2014</label>
+                </value>
+                <value>
+                    <fullName>Explore Year 7 Information Evening, Wednesday 28 May 2014</fullName>
+                    <default>false</default>
+                    <label>Explore Year 7 Information Evening, Wednesday 28 May 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 3 June, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 3 June, 2014</label>
+                </value>
+                <value>
+                    <fullName>IB Information Night, Tuesday 3 June, 2014</fullName>
+                    <default>false</default>
+                    <label>IB Information Night, Tuesday 3 June, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 17 June, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 17 June, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 22 July, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 22 July, 2014</label>
+                </value>
+                <value>
+                    <fullName>Wednesday 30 July, 2014</fullName>
+                    <default>false</default>
+                    <label>Wednesday 30 July, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday, 5 August 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday, 5 August 2014</label>
+                </value>
+                <value>
+                    <fullName>School Readiness Talk, Wednesday 6 August, 2014</fullName>
+                    <default>false</default>
+                    <label>School Readiness Talk, Wednesday 6 August, 2014</label>
+                </value>
+                <value>
+                    <fullName>Chorister Auditions, Sunday 10 August, 2014</fullName>
+                    <default>false</default>
+                    <label>Chorister Auditions, Sunday 10 August, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 19 August, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 19 August, 2014</label>
+                </value>
+                <value>
+                    <fullName>Kindergarten Open Morning, Wednesday 3 September</fullName>
+                    <default>false</default>
+                    <label>Kindergarten Open Morning, Wednesday 3 September</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour, Tuesday 9 September, 2014</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour, Tuesday 9 September, 2014</label>
+                </value>
+                <value>
+                    <fullName>Wednesday 10 September, 2014</fullName>
+                    <default>false</default>
+                    <label>Wednesday 10 September, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 14 October, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 14 October, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 28 October, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 28 October, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 11 November, 2014</fullName>
+                    <default>false</default>
+                    <label>Tuesday 11 November, 2014</label>
+                </value>
+                <value>
+                    <fullName>Thursday 20 November, 2014</fullName>
+                    <default>false</default>
+                    <label>Thursday 20 November, 2014</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 3 March, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 3 March, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 17 March, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 17 March, 2015</label>
+                </value>
+                <value>
+                    <fullName>G&amp;T and Scholarship Information Evening, Wednesday 18 March 2015</fullName>
+                    <default>false</default>
+                    <label>G&amp;T and Scholarship Information Evening, Wednesday 18 March 2015</label>
+                </value>
+                <value>
+                    <fullName>Experience Senior College, Tuesday 24 March 2015</fullName>
+                    <default>false</default>
+                    <label>Experience Senior College, Tuesday 24 March 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 31 March, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 31 March, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 12 May, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 12 May, 2015</label>
+                </value>
+                <value>
+                    <fullName>Explore Year 7, Thursday 21 May 2015</fullName>
+                    <default>false</default>
+                    <label>Explore Year 7, Thursday 21 May 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 26 May, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 26 May, 2015</label>
+                </value>
+                <value>
+                    <fullName>Junior School Information Evening, Wednesday 27 May 2015</fullName>
+                    <default>false</default>
+                    <label>Junior School Information Evening, Wednesday 27 May 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 9 June, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 9 June, 2015</label>
+                </value>
+                <value>
+                    <fullName>IB Information Night, Tuesday 9 June 2015</fullName>
+                    <default>false</default>
+                    <label>IB Information Night, Tuesday 9 June 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 16 June, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 16 June, 2015</label>
+                </value>
+                <value>
+                    <fullName>Chorister Auditions Sunday 26 July, 2015</fullName>
+                    <default>false</default>
+                    <label>Chorister Auditions Sunday 26 July, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 28 July, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 28 July, 2015</label>
+                </value>
+                <value>
+                    <fullName>School Readiness Talk, Wednesday 5 August 2015</fullName>
+                    <default>false</default>
+                    <label>School Readiness Talk, Wednesday 5 August 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 11 August, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 11 August, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 18 August, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 18 August, 2015</label>
+                </value>
+                <value>
+                    <fullName>Experience Senior College - Tuesday 8 September</fullName>
+                    <default>false</default>
+                    <label>Experience Senior College - Tuesday 8 September</label>
+                </value>
+                <value>
+                    <fullName>Kindergarten Open Morning 9 September 2015</fullName>
+                    <default>false</default>
+                    <label>Kindergarten Open Morning 9 September 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 13 October 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 13 October 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 27 October, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 27 October, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 3 November, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 3 November, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 10 November, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 10 November, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 17 November, 2015</fullName>
+                    <default>false</default>
+                    <label>Tuesday 17 November, 2015</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 16 February, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 16 February, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 1 March, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 1 March, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 15 March, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 15 March, 2016</label>
+                </value>
+                <value>
+                    <fullName>Gifted &amp; Talented Information Evening, Wednesday 16 March 2016</fullName>
+                    <default>false</default>
+                    <label>Gifted &amp; Talented Information Evening, Wednesday 16 March 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 22 March, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 22 March, 2016</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour Tuesday 29 March, 2016</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour Tuesday 29 March, 2016</label>
+                </value>
+                <value>
+                    <fullName>Junior School Information Evening, Wednesday 30 March 2016</fullName>
+                    <default>false</default>
+                    <label>Junior School Information Evening, Wednesday 30 March 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 3 May, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 3 May, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 17 May, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 17 May, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 31 May, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 31 May, 2016</label>
+                </value>
+                <value>
+                    <fullName>Explore Year 7 Event, Tuesday 24 May 2016</fullName>
+                    <default>false</default>
+                    <label>Explore Year 7 Event, Tuesday 24 May 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 7 June, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 7 June, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 14 June, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 14 June, 2016</label>
+                </value>
+                <value>
+                    <fullName>IB Information Evening, Tuesday  14 June 2016</fullName>
+                    <default>false</default>
+                    <label>IB Information Evening, Tuesday  14 June 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 26 July, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 26 July, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 2 August, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 2 August, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 9 August, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 9 August, 2016</label>
+                </value>
+                <value>
+                    <fullName>Kindergarten Readiness Talk, Wednesday 10 August</fullName>
+                    <default>false</default>
+                    <label>Kindergarten Readiness Talk, Wednesday 10 August</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour - Thursday 11 August, 2016</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour - Thursday 11 August, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 23 August, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 23 August, 2016</label>
+                </value>
+                <value>
+                    <fullName>Kindergarten Open Morning - 31 August, 2016</fullName>
+                    <default>false</default>
+                    <label>Kindergarten Open Morning - 31 August, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 6 September, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 6 September, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 13 September, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 13 September, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 18 October, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 18 October, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 25 October, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 25 October, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 1 November, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 1 November, 2016</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 15 November, 2016</fullName>
+                    <default>false</default>
+                    <label>Tuesday 15 November, 2016</label>
+                </value>
+                <value>
+                    <fullName>2017 first tour</fullName>
+                    <default>false</default>
+                    <label>2017 first tour</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 7 February, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 7 February, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 21 February, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 21 February, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 7 March, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 7 March, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 21 March, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 21 March, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 28 March, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 28 March, 2017</label>
+                </value>
+                <value>
+                    <fullName>Gifted &amp; Talented and Scholarship Information Evening - Wednesday 29 March, 2017</fullName>
+                    <default>false</default>
+                    <label>Gifted &amp; Talented and Scholarship Information Evening - Wednesday 29 March, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 4 April, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 4 April, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 9 May, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 9 May, 2017</label>
+                </value>
+                <value>
+                    <fullName>Junior School Information Evening - Wednesday 10 May, 2017</fullName>
+                    <default>false</default>
+                    <label>Junior School Information Evening - Wednesday 10 May, 2017</label>
+                </value>
+                <value>
+                    <fullName>Explore Year 7 Evening - Tuesday 23 May, 2017</fullName>
+                    <default>false</default>
+                    <label>Explore Year 7 Evening - Tuesday 23 May, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 30 May, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 30 May, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 13 June, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 13 June, 2017</label>
+                </value>
+                <value>
+                    <fullName>IB Information Evening, Tuesday 13 June</fullName>
+                    <default>false</default>
+                    <label>IB Information Evening, Tuesday 13 June</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 25 July, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 25 July, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 1 August, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 1 August, 2017</label>
+                </value>
+                <value>
+                    <fullName>School Readiness Talk, Wednesday 9 August, 2017</fullName>
+                    <default>false</default>
+                    <label>School Readiness Talk, Wednesday 9 August, 2017</label>
+                </value>
+                <value>
+                    <fullName>Junior School Tour Tuesday 29 August, 2017</fullName>
+                    <default>false</default>
+                    <label>Junior School Tour Tuesday 29 August, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 15 August, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 15 August, 2017</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour - Thursday 17 August, 2017</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour - Thursday 17 August, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 12 September, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 12 September, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 22 August, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 22 August, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 24 October, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 24 October, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 14 November, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 14 November, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 31 October, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 31 October, 2017</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 7 November, 2017</fullName>
+                    <default>false</default>
+                    <label>Tuesday 7 November, 2017</label>
+                </value>
+                <value>
+                    <fullName>First Tour 2018</fullName>
+                    <default>false</default>
+                    <label>First Tour 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 27 February, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 27 February, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 6 March, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 6 March, 2018</label>
+                </value>
+                <value>
+                    <fullName>Junior School Information Evening - Wednesday 14 March 2018, 5.30pm</fullName>
+                    <default>false</default>
+                    <label>Junior School Information Evening - Wednesday 14 March 2018, 5.30pm</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 20 March, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 20 March, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 27 March, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 27 March, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 10 April, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 10 April, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 8 May, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 8 May, 2018</label>
+                </value>
+                <value>
+                    <fullName>Gifted &amp; Talented Information Evening Wednesday 9 May, 2018</fullName>
+                    <default>false</default>
+                    <label>Gifted &amp; Talented Information Evening Wednesday 9 May, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 22 May, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 22 May, 2018</label>
+                </value>
+                <value>
+                    <fullName>Explore Year 7 - Tuesday 29 May 2018, 5.00pm</fullName>
+                    <default>false</default>
+                    <label>Explore Year 7 - Tuesday 29 May 2018, 5.00pm</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 5 June, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 5 June, 2018</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour Tuesday 12 June, 2018</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour Tuesday 12 June, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 19 June, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 19 June, 2018</label>
+                </value>
+                <value>
+                    <fullName>IB Information Evening - 5.30pm Tuesday 19 June, 2018</fullName>
+                    <default>false</default>
+                    <label>IB Information Evening - 5.30pm Tuesday 19 June, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 26 June, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 26 June, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 7 August, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 7 August, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 14 August, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 14 August, 2018</label>
+                </value>
+                <value>
+                    <fullName>School Readiness Talk, Wednesday 15 August, 2018</fullName>
+                    <default>false</default>
+                    <label>School Readiness Talk, Wednesday 15 August, 2018</label>
+                </value>
+                <value>
+                    <fullName>Senior College Tour 21 August, 2018</fullName>
+                    <default>false</default>
+                    <label>Senior College Tour 21 August, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 11 September, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 11 September, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 18 September, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 18 September, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 23 October, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 23 October, 2018</label>
+                </value>
+                <value>
+                    <fullName>Year_4_Open</fullName>
+                    <default>false</default>
+                    <label>Year 4 Open Morning, Tuesday 30 October, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 6 November, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 6 November, 2018</label>
+                </value>
+                <value>
+                    <fullName>Tuesday 13 November, 2018</fullName>
+                    <default>false</default>
+                    <label>Tuesday 13 November, 2018</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Special_Interests_Needs_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Interests/Needs/Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Total_Lead_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Leadscore__c</fullName>
+        <description>It will take the values from all other Lead Scores &amp; add them to give a final value. Based on this value, it will change the Lead Rating (flag)</description>
+        <externalId>false</externalId>
+        <formula>VALUE(Lead_Score_1__c) +  VALUE(Lead_Score_2__c) +  VALUE(Lead_Score_3__c) +  VALUE(Lead_Score_4__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Leadscore</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tour_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Tour Date</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Year_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Year Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>K</fullName>
+                    <default>false</default>
+                    <label>K</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>11</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Year_of_Entry__c</fullName>
+        <externalId>false</externalId>
+        <label>Year of Entry</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2012</fullName>
+                    <default>false</default>
+                    <label>2012</label>
+                </value>
+                <value>
+                    <fullName>2013</fullName>
+                    <default>false</default>
+                    <label>2013</label>
+                </value>
+                <value>
+                    <fullName>2014</fullName>
+                    <default>false</default>
+                    <label>2014</label>
+                </value>
+                <value>
+                    <fullName>2015</fullName>
+                    <default>false</default>
+                    <label>2015</label>
+                </value>
+                <value>
+                    <fullName>2016</fullName>
+                    <default>false</default>
+                    <label>2016</label>
+                </value>
+                <value>
+                    <fullName>2017</fullName>
+                    <default>false</default>
+                    <label>2017</label>
+                </value>
+                <value>
+                    <fullName>2018</fullName>
+                    <default>false</default>
+                    <label>2018</label>
+                </value>
+                <value>
+                    <fullName>2019</fullName>
+                    <default>false</default>
+                    <label>2019</label>
+                </value>
+                <value>
+                    <fullName>2020</fullName>
+                    <default>false</default>
+                    <label>2020</label>
+                </value>
+                <value>
+                    <fullName>2021</fullName>
+                    <default>false</default>
+                    <label>2021</label>
+                </value>
+                <value>
+                    <fullName>2022</fullName>
+                    <default>false</default>
+                    <label>2022</label>
+                </value>
+                <value>
+                    <fullName>2023</fullName>
+                    <default>false</default>
+                    <label>2023</label>
+                </value>
+                <value>
+                    <fullName>2024</fullName>
+                    <default>false</default>
+                    <label>2024</label>
+                </value>
+                <value>
+                    <fullName>2025</fullName>
+                    <default>false</default>
+                    <label>2025</label>
+                </value>
+                <value>
+                    <fullName>2026</fullName>
+                    <default>false</default>
+                    <label>2026</label>
+                </value>
+                <value>
+                    <fullName>2027</fullName>
+                    <default>false</default>
+                    <label>2027</label>
+                </value>
+                <value>
+                    <fullName>2028</fullName>
+                    <default>false</default>
+                    <label>2028</label>
+                </value>
+                <value>
+                    <fullName>2029</fullName>
+                    <default>false</default>
+                    <label>2029</label>
+                </value>
+                <value>
+                    <fullName>2030</fullName>
+                    <default>false</default>
+                    <label>2030</label>
+                </value>
+                <value>
+                    <fullName>2031</fullName>
+                    <default>false</default>
+                    <label>2031</label>
+                </value>
+                <value>
+                    <fullName>2032</fullName>
+                    <default>false</default>
+                    <label>2032</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>All_Enquiries</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Lead_Sub_Source__c</columns>
+        <columns>School_Tour_Date__c</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Notes__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>Lead_Stage__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Open,Responded,Ongoing,Converted,Booked on Tour,Confirmed on Tour</value>
+        </filters>
+        <label>All Enquiries</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Enquiries</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>School_Tour_Date__c</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>All Open Enquiries</label>
+    </listViews>
+    <listViews>
+        <fullName>Enquiries_last_7_days</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>School_Tour_Date__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>Lead_Sub_Source__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>Enquiries last 7 days</label>
+    </listViews>
+    <listViews>
+        <fullName>Explore_Yr_7_2018</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Lead_Stage__c</columns>
+        <columns>CAMPAIGN_MEMBER.STATUS</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>EXPLORE_YEAR_7_GROUP__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Lead_Stage__c</field>
+            <operation>equals</operation>
+            <value>School Tour Requested,Enquiry</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Open,Responded,Ongoing</value>
+        </filters>
+        <label>Explore Yr 7 2018</label>
+    </listViews>
+    <listViews>
+        <fullName>Historical_enquiries</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Lead_Sub_Source__c</columns>
+        <columns>School_Tour_Date__c</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Notes__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Historical</value>
+        </filters>
+        <filters>
+            <field>Lead_Stage__c</field>
+            <operation>equals</operation>
+            <value>Enrolled</value>
+        </filters>
+        <label>Historical enquiries (incl enrolled)</label>
+    </listViews>
+    <listViews>
+        <fullName>Mass_email_tour_enquiries</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>School_Tour_Date__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>Mass email tour enquiries</label>
+    </listViews>
+    <listViews>
+        <fullName>MyUnreadLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Lead_Sub_Source__c</columns>
+        <columns>Tour_Date__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>LEAD.UNREAD</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Unread Enquiries</label>
+    </listViews>
+    <listViews>
+        <fullName>Quick_Enquiries</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>Date_of_Enquiry__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>Notes__c</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Lead_Sub_Source__c</field>
+            <operation>equals</operation>
+            <value>Quick Enquiry</value>
+        </filters>
+        <label>Quick Enquiries</label>
+    </listViews>
+    <listViews>
+        <fullName>School_Tour_Bookings</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>School_Tour_Date__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Date_of_Enquiry__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Lead_Sub_Source__c</field>
+            <operation>equals</operation>
+            <value>School Tour</value>
+        </filters>
+        <label>School Tour Bookings</label>
+    </listViews>
+    <listViews>
+        <fullName>hos_follow_up_emails</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Year_Group__c</columns>
+        <columns>Year_of_Entry__c</columns>
+        <columns>Special_Interests_Needs_Comments__c</columns>
+        <columns>CAMPAIGN_MEMBER.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <label>hos follow up emails</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Year_Group__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Year_of_Entry__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Lead_Sub_Source__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>School_Tour_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CORE.USERS.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.UNREAD</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Notes__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Phone_Business__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Year_Group__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Year_of_Entry__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Special_Interests_Needs_Comments__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Lead_Stage__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>For_Web_and_Marketing_Efforts_Campaigns</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( OR( ISPICKVAL( LeadSource ,&quot;Web&quot;),ISPICKVAL( LeadSource ,&quot;Marketing Efforts &amp; Campaingns&quot;) ) ,ISBLANK( TEXT( Lead_Sub_Source__c ) ) , false)</errorConditionFormula>
+        <errorMessage>Please select the correct Picklist from Lead Sub Source.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>If_Alumni_mandatory</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( Alumni__c , ( ISBLANK( If_Alumni__c ) ) , false)</errorConditionFormula>
+        <errorDisplayField>If_Alumni__c</errorDisplayField>
+        <errorMessage>&quot;If Alumni&quot; is mandatory when Alumni is selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>School_Tour_Date_mandatory</fullName>
+        <active>true</active>
+        <description>School Tour Date is mandatory when the lead stage &quot;School Tour Requested&quot; is selected</description>
+        <errorConditionFormula>ISPICKVAL(  Lead_Stage__c  , &quot;School Tour Requested&quot;) &amp;&amp; ISBLANK(Tour_Date__c ) &amp;&amp;
+ ISBLANK( TEXT( School_Tour_Date__c )  )</errorConditionFormula>
+        <errorMessage>Please update school tour date</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Change_Grade</fullName>
+        <availability>online</availability>
+        <description>Change school grade - used for data rollover</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Change Grade</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!Lead.Year_Group__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SendGmail</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Gmail</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Lead_Email}&lt;{!Lead_LastName}, {!Lead_FirstName}&gt;&amp;tf=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Year_of_Entry</fullName>
+        <availability>online</availability>
+        <description>mass change of year group - used when rolling over</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Year of Entry</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!Lead.Year_of_Entry__c}</url>
+    </webLinks>
+</CustomObject>

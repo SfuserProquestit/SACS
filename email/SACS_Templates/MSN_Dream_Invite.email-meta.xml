@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Wizard of Oz invite to all salesforce</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>MSN Dream Invite</name>
+    <style>freeForm</style>
+    <subject>Invitation from the Registrar: A modern, punk version of a &quot;Midsummer Night&apos;s Dream!&quot; (complimentary ticket offer)</subject>
+    <textOnly>Dear  {!Lead.FirstName}
+
+
+I am delighted to invite you and your family to our School’s special major drama production of 2018, A Midsummer Night’s Dream.
+
+
+“The course of true love never did run smooth.” Shakespeare’s classic story of mirth, mayhem and magic has been transported to Sydney in the 1970s. Four young lovers bound in a web of affection, and a group of blue collar thespian mechanicals find themselves in the ‘woods’ – a condemned industrial storage complex. This dark and foreboding building is inhabited by a group of squatting magical punk fairies, who waste no time in derailing everyone’s plans – with hilarious consequences! Our production features live music, dance and comedy, and breathes new life into this timeless tale.
+
+
+I would like to offer you a complimentary family pass to the Saturday Matinee performance at the Lendlease Darling Quarter* on Saturday 7 April at 2.00pm.
+
+
+To reserve your complimentary family pass please contact Lyn Jarvis via email at ljarvis@sacs.nsw.edu.au
+
+
+Be quick! Tickets are strictly limited and are on a first come, first served basis.
+
+
+This is a very special event for our School and a great opportunity for you to celebrate our achievements in performing arts with our school community. I do hope you can join us.
+
+
+Regards
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550
+
+
+
+
+You are receiving this invitation as you have previously indicated interest in enrolment at St Andrew’s Cathedral School. We would love you to come to our special drama event however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

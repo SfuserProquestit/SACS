@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Carnevale invite to all pre school directors</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Carnevale Director Invite</name>
+    <style>freeForm</style>
+    <subject>Carnevale 2015 Invitation: Meet Peppa Pig and George Pig!</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+
+We are delighted to invite families and friends of {!Account.Name}, to Carnevale – our major whole of school festival in Town Hall’s Sydney Square on Friday 21 November from 9am – 5pm.
+
+
+Attracting thousands every year, the Square will again be a hive of activity with market stalls, carnival food and games, as well as ongoing musical entertainment from 10am by some of our school’s most promising young musicians. It is a great opportunity to see the school community in all its glory!
+
+
+Carnevale is one of the largest fundraisers on the school calendar. St Andrew’s Parents and Friends Association President Mrs Liz Hurley said the day should be exciting and packed with entertainment for young and old alike, with many months of planning for the many volunteers and external market stall holders.
+
+
+“As well as experiencing many aspects of the school’s music, drama, design and technology, visitors to Carnevale have the perfect opportunity to get started on their Christmas shopping,” Mrs Hurley said. “I love Carnevale, it is a true community event and we hope the extended SACS family and city community join in.”
+
+
+Popular stalls include the white elephant trash and treasure extravaganza, the delicious cake stall, a book stall and especially for younger children – the opportunity to meet children’s characters Peppa Pig and George Pig!
+
+
+Head of School Dr John Collier says Carnevale is about embracing our city surroundings to showcase the school’s diverse community. “At St Andrew&apos;s, the city is an extension of our classrooms. We believe students need to see and be in the real world to learn. Carnevale is our annual celebration of the school’s relationship with the CBD,” said Dr Collier.
+
+
+We hope you can join us on Friday!
+
+Regards
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550
+
+
+
+
+You are receiving this invitation as you have previously indicated interest in enrolment at St Andrew’s Cathedral School. We would love you to come to our Carnevale in the Square however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

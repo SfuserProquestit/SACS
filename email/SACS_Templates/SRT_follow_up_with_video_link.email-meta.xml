@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>SRT follow up with video link</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>SRT follow up with video link</name>
+    <style>formalLetter</style>
+    <subject>School Readiness Talk: Video Link</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+As mentioned on the evening, attached below is a link to the &quot;Marshmallow Test&quot; video which demonstrates self regulation in children.
+
+
+Unfortunately due to copyright restrictions, we are unable to distribute copies of Mrs Robson&apos;s presentation.
+
+
+
+https://www.youtube.com/watch?v=amsqeYOk--w
+
+
+
+
+
+Regards
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+phone 02 92869507 email BPerry@sacs.nsw.edu.au</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

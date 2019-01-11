@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Explore Year 7: those who didn&apos;t come</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Explore Yr 7 you didn&apos;t come</name>
+    <style>freeForm</style>
+    <subject>Explore Year 7 Information Evening</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+It&apos;s unfortunate that you were unable to come along on our Explore Year 7 information evening.
+
+
+For our current student and those of you who have enrolled, we look forward to you joining our Year 7 cohort next year! We will be in touch to invite you to Profiling and Orientation next term.
+
+
+
+If you are considering enrolment, our Enrolments staff are happy to assist you with your application or any queries you may have.  You can contact the Enrolments team on 9286 9500.
+
+If you would like to visit the School, you are most welcome to come along on a Head of School tour.  We run the tours regularly throughout the school term and it&apos;s a great opportunity to tour the facilities and meet our staff and students.  You can book directly into a tour on a date that suits you via our website www.sacs.nsw.edu.au.
+
+I look forward to the opportunity to welcome your family next time at St Andrew’s Cathedral School.
+
+Regards
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+
+
+
+
+
+You can keep up to date with what&apos;s happening in our community via our
+
+
+Facebook page. We update it regularly with photos and news stories of classroom activities, exciting visitors, events and more.
+
+
+
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

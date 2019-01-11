@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>change of date from 26 nov to 20 nov</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>HOS 26 nov change of date</name>
+    <style>freeForm</style>
+    <subject>Another School Tour change of date: now THURSDAY 20 NOVEMBER</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+
+I do apologise, however due to demand, we are have to bring our Head of School Tour forward from Wednesday 26 November to Thursday 20 November.
+
+
+The tour times remain the same - from 9.00am to 10.30am.
+
+
+I do apologise for any confusion or inconvenience!  We will be in touch again closer to the date to remind you and provide further details.
+
+
+We look forward to welcoming you and your family to St Andrew&apos;s Cathedral School.
+
+
+
+
+Kindest regards
+
+
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

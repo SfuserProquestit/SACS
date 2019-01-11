@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>email to first tour 2018 campaign announcing tour dates</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Email announcing tour dates 2018</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School: 2018 Tour bookings are open!</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+We are excited to advise that our tour dates for Term 1, 2018 are now open!
+
+
+
+If you are considering Year 7 enrolment, be sure to book in to our Explore Year 7 Evening, Tuesday 29 May - a fun and interactive evening for the whole family to visit and discover our specialised Middle School.
+
+
+
+For parents considering Junior School enrolment (Kindergarten to Year 6), our Junior School Twilight Tour and Information Evening on Wednesday 14 March provides the opportunity to tour our vibrant Junior School campus, rooftop playground and hear from our highly qualified educators.
+
+
+
+Head of School Tours for all year groups run on Tuesday mornings throughout term and are a great opportunity to meet our Head of School, Dr Collier, tour our city campus and see our school in action on a regular school day.
+
+
+
+Bookings essential - go to
+https://www.sacs.nsw.edu.au/book-a-tour/tour-bookings/
+
+
+to reserve your place today!
+
+
+
+
+In the meantime, keep up to date with what&apos;s happening at the School and follow us on Facebook!
+
+
+
+
+We look forward to seeing you at an event soon.
+
+
+
+Kindest regards
+
+
+
+
+Robyn Pedley
+Enrolments Manager
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

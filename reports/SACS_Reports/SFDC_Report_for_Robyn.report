@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign.LeadCampaignMembers$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign$Attended__c</field>
+    </columns>
+    <columns>
+        <field>Campaign$Did_not_attend__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.LeadCampaignMembers*Lead$Date_of_Application__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.LeadCampaignMembers*Lead$Date_of_Enrolment__c</field>
+    </columns>
+    <columns>
+        <field>Campaign$Total_Number_of_Campaign_Members__c</field>
+    </columns>
+    <description>For case number 09740542 (rename if necessary)</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign.LeadCampaignMembers*Lead$Lead_Stage__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Enrolled,School Tour Requested,Enquiry,Meeting with Registrar,Application Received,Offered,Current Student</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Campaign.LeadCampaignMembers*Lead$Lead_Stage__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Campaign$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SFDC Report for Robyn</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_Enquiries__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Campaign$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

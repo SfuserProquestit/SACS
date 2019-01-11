@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite tour attendees for next year in for earlier tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Invite for earlier tour</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School - Junior School tour</subject>
+    <textOnly>Hello {!Lead.FirstName}
+
+
+We have received your booked for our upcoming Head of School Tour.  As you have indicated you are considering Junior School enrolment for next year would you like to come in for an earlier tour?
+
+
+I am running a small Junior School tour on Tuesday 29 August at 9.00am - does that date suit you? If so, let me know and I will move your booking.
+
+
+
+Regards
+
+Robyn
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

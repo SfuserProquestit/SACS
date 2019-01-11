@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to Directors advising last chance to enrol 2017</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Pre school directors K 2017 enrolment</name>
+    <style>freeForm</style>
+    <subject>Do you currently have vacancies?</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+
+
+Due to many families relocating to Sydney, we are receiving enquiries regarding pre-school vacancies.  I have also received many enquiries from new students seeking pre school placement for their younger siblings.
+
+
+Accordingly, do you currently have any vacancies in your centre?  Either for this year or 2015.  If so, for which age groups?  Do you have to work for a certain company to get a place?  Please let me know as it would be useful to know where I can refer families.
+
+
+
+{!Contact.FirstName}, thank you for your help with this and I look forward to being in touch regarding our School Readiness Talk on August 6.
+
+
+
+Thanks and regards,
+
+Robyn
+
+
+
+
+
+Robyn Pedley
+Enrolments Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

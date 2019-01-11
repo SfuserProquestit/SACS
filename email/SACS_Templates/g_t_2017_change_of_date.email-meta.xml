@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Standard email with Robyn&apos;s signature</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>g&amp;t 2017 change of date</name>
+    <style>freeForm</style>
+    <subject>CHANGE OF DATE: Gifted &amp; Talented and Scholarship Information Evening now Wednesday 29 March</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+Our Gifted &amp; Talented and Scholarship Information Evening has been moved to Wednesday 29 March - 5.30pm for 6.00pm.
+
+
+
+The move was to accommodate our wonderful guest speaker, Dr Susen Smith. Dr Smith is a Senior Lecturer in Gifted and Special Education, having over has three decades of leadership, teaching and research experience from Pre K to Tertiary. She has a diverse teaching background having worked across Early Childhood, Primary, Secondary, Gifted and Special Education, Education for Sustainability, and Aboriginal Studies.
+
+
+
+Dr Smith&apos;s research interests include: Differentiating curriculum and pedagogy for gifted students using dynamic cognitive and effective taxonomies and matrices. She has been a visiting scholar at Columbia University, CUNY, and the Hong Kong Institute of Education. She has also been the guest editor of the Australasian Journal of Gifted Education, published and presented at national and international conferences, most recently as an invited keynote speaker at the Sino-Australian Gifted Education Forum, China, the Ignite the Spark, Fuel the fire: Differentiation for Diversity Conference and the Chinese Association of Gifted Education (CAGE)
+
+
+
+We look forward to seeing you on the evening.
+
+
+
+Regards
+
+Robyn
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

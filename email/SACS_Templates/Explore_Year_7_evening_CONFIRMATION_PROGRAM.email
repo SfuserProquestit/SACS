@@ -1,0 +1,52 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+
+
+
+</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: Arial, sans-serif;">Dear
+{!Lead.FirstName}<br></span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"></p><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: center;"><font color="#000066"><span style="font-size: 12pt; font-family: Arial, sans-serif;">We
+are looking forward to seeing you at our <br></span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><b>Explore Year 7 evening on Tuesday 29 May!</b></span></font></div><div style="color: rgb(0, 0, 0); text-align: center;"><font face="Arial, sans-serif"><b><br></b></font></div><font face="Arial, sans-serif" style="color: rgb(0, 0, 0);"><span style="font-size: 12pt;"><b>Booking details</b>: It
+is most important that you </span></font><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 12pt;"><b>confirm via reply email&nbsp;</b>your booking details</span><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 12pt;"> below:</span><p style="color: rgb(0, 0, 0);"></p><ol start="1" type="1" style="font-family: arial; font-size: 12pt;">
+ <li class="MsoNormal" style=""><span style="font-family: Arial, sans-serif;">Number of people attending:
+     <b style=""><font color="#000066">{!Lead.No_of_People_Attending__c}</font></b><o:p></o:p></span></li>
+ <li class="MsoNormal" style=""><span style="font-family: Arial, sans-serif;">Names of people attending:<b style=""><font color="#000066">
+     {!Lead.FirstName} {!Lead.LastName},
+     {!Lead.Other_Tour_Attendee_Name__c}&nbsp;</font></b><o:p></o:p></span></li>
+ <li class="MsoNormal" style=""><span style="font-family: Arial, sans-serif;">Year your child will commence
+     in Year 7: <b style=""><font color="#000066">{!Lead.Year_of_Entry__c}</font></b><o:p></o:p></span></li>
+ <li class="MsoNormal" style="color: rgb(0, 0, 0);"><span style="font-family:&quot;Arial&quot;,sans-serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">Anything you would like covered
+     on the evening?&nbsp;<o:p></o:p></span></li>
+</ol><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: Arial, sans-serif;"><b>Event Program: is attached and provides schedule of the evening's activities</b>. There will also be a printed program available for collection on the evening. Please read through with your
+child and be sure to:<o:p></o:p></span></p><ul type="disc" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+ <li class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;">Choose</span></b><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;">&nbsp;the
+     talks, workshops and information pop-up booths you are most interested in
+     visiting;</span><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></li>
+ <li class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;">Choose
+     your arrival time </span></b><span style="font-family:&quot;Arial&quot;,sans-serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">– registration is from 5.00pm,
+     however<b> </b>the program runs until 8.00pm so you have plenty of time to
+     arrive throughout the evening;</span><span style="font-size:12.0pt;
+     font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="color:#1F497D;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo2;tab-stops:list .5in"><b><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+     color:black">Enjoy</span></b><span style="font-family:&quot;Arial&quot;,sans-serif;
+     mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">&nbsp;the evening!</span><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></li>
+</ul><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: Arial, sans-serif;">There is parking available
+underneath the building in the Wilsons Car Park (entry 464 Kent Street), flat
+rate $12.00 if you enter the car park after 5.00pm.<br></span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt; font-family: Arial, sans-serif;">We hope you and your family
+enjoy the evening as you </span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><i style=""><b>Explore Year 7!<br></b></i></span><span style="font-family: Arial, sans-serif; font-size: 12pt;"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: Arial, sans-serif; font-size: 12pt;">Regards</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0pt;"><b style="font-size: 13.3333px; color: rgb(38, 38, 38); font-family: Georgia, serif;">Bruce Perry</b></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="color: rgb(38, 38, 38); font-family: Georgia, serif; font-size: 9pt;">Registrar/Mathematics Teacher</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0pt;"><strong style="font-size: medium; font-family: &quot;Times New Roman&quot;;"><font color="#000099">St Andrew's Cathedral School</font></strong></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 3.75pt;"><span style="color: rgb(51, 51, 51); font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 10pt;">Sydney
+Square, Sydney NSW 2000, Australia&nbsp;</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 3.75pt;"><span style="color: rgb(51, 51, 51); font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 10pt;"><strong>direct</strong> 9286 9552&nbsp;&nbsp;<strong>email</strong> 
+</span><span>&nbsp;</span><a title="Click to send email to Bruce Perry" href="mailto:RPedley@sacs.nsw.edu.au"><span style="color: black; font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 9pt; text-decoration: none; text-underline: none;">RPedley@sacs.nsw.edu.au</span></a><b><span style="color: rgb(31, 73, 125); font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 7.5pt;"><br>
+</span></b><b><span style="color: rgb(38, 38, 38); font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 10pt;">phone</span></b><span style="color: rgb(51, 51, 51); font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 10pt;"> +61 2 9286 9500 </span><b><span style="color: rgb(38, 38, 38); font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 9pt;">fax </span></b><span style="color: black; font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 9pt;">+61 29286
+9550</span><span style="color: rgb(31, 73, 125); font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12pt;"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0pt;"><font color="#000000" face="Times New Roman" size="3">
+
+</font><span style="color: rgb(31, 73, 125); font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12pt;"><o:p></o:p></span></p><font face="Times New Roman" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+</font>]]></td>
+</tr>
+</table>

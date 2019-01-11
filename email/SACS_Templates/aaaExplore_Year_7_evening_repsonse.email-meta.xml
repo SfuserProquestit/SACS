@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>booking response Explore Yr 7</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>aaaExplore Year 7 evening repsonse</name>
+    <style>freeForm</style>
+    <subject>Explore Year 7!</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+We are looking forward to seeing you at our
+Explore Year 7 event on Tuesday 28 May, 2019!
+
+Thank you for your booking! We are looking forward to seeing you at
+
+Explore Year 7 on Tuesday 28 May.
+
+
+Registration from 5.00pm
+
+Keynote speakers from 5.30pm
+
+Head of School, Dr Collier speaking at 6.00pm and 7.00pm
+
+
+On the evening you will have the opportunity to:
+
+Listen to keynote speakers and information sessions;
+Experience fun and interactive demonstrations and workshops;
+Speak with specialty staff and community representatives who will be available to answer your questions; and
+Enjoy entertainment and sausage sizzle on our famous Rooftop Playground.
+
+You will receive further information, including an event program, prior to the evening.
+
+
+We look forward to welcoming your family on the evening as you Explore Year 7!
+
+
+
+
+Regards
+
+Bruce Perry
+
+Registrar/Mathematics Teacher
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

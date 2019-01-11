@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First email sent to confirm they are booked into tour requested or provided an alternative if that tour is full</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Chorister Audition response</name>
+    <style>formalLetter</style>
+    <subject>St Andrew&apos;s Cathedral Chorister Auditions - 26 July, 2015</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+Dear {!Lead.FirstName},
+
+We are delighted that your son is considering becoming a St Andrew&apos;s Cathedral Chorister. As requested, you have been booked into the Chorister Auditions on Sunday 10 August, 2014 following the 10.30am service at the Cathedral.
+
+The morning commences at the Cathedral with a welcome by Mr Ross Cobb, Director of Music.  There will be a chance to talk to current  Choristers about their lives as Choristers, to join in singing with them, as well as individual auditions for scholarships.
+
+We will email one week prior to auditions to remind you and provide further details.
+
+In the meantime, if there&apos;s anything else we can help you with, please do not hesitate to contact us.
+
+Yours Sincerely,
+
+Robyn Pedley
+Enrolment Assistant</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

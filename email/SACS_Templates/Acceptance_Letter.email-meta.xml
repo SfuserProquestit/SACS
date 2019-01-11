@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Acceptance Letter</name>
+    <style>formalLetter</style>
+    <subject>Acceptance Letter</subject>
+    <textOnly>{!Opportunity.CreatedDate}
+
+Dear {!Opportunity.Name},
+
+I am very please that you have accepted the Head of School&apos;s offer and enrolled {!Opportunity.Student_Name__c} at St Andrew&apos;s Cathedral School commencing in {!Opportunity.Enrolment_Date__c}.
+
+I wish to acknowledge receipt of the payment of the non-refundable Enrolment Fee of $2,500.00.
+
+I look forward to {!Opportunity.Student_Name__c}&apos;s contribution to the life of the school and wish him/her every success for his/her years with us.
+
+Yours Sincerely
+
+
+Bruce Perry
+BEd, Dip Teach
+Registrar</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

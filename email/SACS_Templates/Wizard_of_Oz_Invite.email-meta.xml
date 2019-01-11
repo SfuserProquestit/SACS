@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Wizard of Oz invite to all salesforce</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Wizard of Oz Invite</name>
+    <style>freeForm</style>
+    <subject>Invitation from the Registrar: Wizard of Oz at NIDA Parade Theatre</subject>
+    <textOnly>Dear  {!Lead.FirstName}
+
+
+I am delighted to invite you to our biennial school musical The Wizard of Oz!
+
+
+
+With a talented cast of over 100, a live student orchestra, extraordinary sets and all the songs and characters you adore, this show will put a smile on the faces of the whole of the family.
+
+
+
+Held from 30 March to 1 April at NIDA&apos;s magnificent Parade Theatre, on Anzac Parade, Kensington. Tickets are on sale for the three matinee and two evening performances.
+
+
+
+Performance dates and times:
+
+· Thursday 30 March: 11.30am and 7pm
+
+· Friday 31 March: 11.30am and 7pm
+
+· Saturday 1 April: 1pm and 7pm
+
+Book your tickets online today at Ticketek: http://premier.ticketek.com.au/
+
+
+This is a very special event for our School and a great opportunity for you to come along and see all the diverse musical talents of our School.
+
+
+Regards
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550
+
+
+
+
+You are receiving this invitation as you have previously indicated interest in enrolment at St Andrew’s Cathedral School. We would love you to come to our Showcase event however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

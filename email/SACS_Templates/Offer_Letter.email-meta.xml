@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Offer Letter</name>
+    <style>formalLetter</style>
+    <subject>Offer Letter</subject>
+    <textOnly>{!Opportunity.CreatedDate}
+
+Dear {!Opportunity.Name},
+
+I am writing to offer your son {!Opportunity.Student_Name__c} a place at St Andrew&apos;s Cathedral school in {!Opportunity.Offer_Date__c}.
+
+{!Opportunity.Student_Name__c}&apos;s enrolment is contingent upon the payment of the non-refundable Enrolment fee of $2,500 and completion of the Acceptance of Offer of Enrolment attached.
+
+Please ensure:
+You have signed the Terms and Conditions of Enrolment on Page 3
+You and your child have signed The School Code of Behaviour on Page 13
+You and your child have signed the Policy of Acceptable Use of Computers on Page 14
+You have completed the Emergency Contact Details on Page 15
+You have completed the Data Collection on Page 16
+You have read the Supplementary Information on Page 18.
+
+Please return one copy and retain one copy for your records.
+
+I feel sure that {!Opportunity.Student_Name__c} will settle happily into the new environment at St Andrew&apos;s. I look forward to your written acknowledgement of his enrolment as soon as possible.
+
+Yours Faithfully
+
+Bruce Perry
+BEd, Dip Teach
+
+Registrar
+
+(For)</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

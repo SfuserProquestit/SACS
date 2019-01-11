@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email asking Yr7 people to move from SCT to HOS</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Move from SCT to HOS</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School - school tour</subject>
+    <textOnly>Hello {!Lead.FirstName}
+
+
+We have received your booked for our upcoming Senior College Tour.  The Senior College Tour is aimed at prospective students considering Year 10 or Year 11 entry into St Andrew&apos;s Cathedral School.
+
+
+As you have indicated that you are considering Year 7 for your child, may I suggest perhaps coming along on our Head of School Tour on [date]?  It&apos;s more of a whole-of-school tour which provides a great insight into Middle School (Yrs 7 - 9) right through to Senior College (Years 10 - 12).
+
+
+If you are able to come along on our Head of School Tour, please let me know and I will book you a place.  If that date doesn&apos;t suit, I can advise of future tour dates that might be more convenient.
+
+
+Regards
+
+Robyn
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

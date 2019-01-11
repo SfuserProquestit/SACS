@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Yr 7 info evening response to current students</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Explore Yr 7: current students Year 5</name>
+    <style>freeForm</style>
+    <subject>Explore Year 7: Thank You!</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+Thank you for coming along to our Explore Year 7 information evening. We hope you found the evening informative and inspiring and you all enjoyed the demonstrations.
+
+I will be in touch again to invite you to join me for a special talk for our Junior School families that covers specifically how Middle School is different for our Junior School students. The talk also includes a tour of the Senior College campus on Druitt Street so you might see some spaces you haven&apos;t seen before!
+
+You will also receive an invitation to Year 7 Orientation during Term 4. This is where students will meet others joining St Andrew’s next year, hear further about subject offerings, learn about our buddy system and discuss issues including transport and study.
+
+Tell us what you think! We would love your feedback and would appreciate your time in completing this survey:
+
+
+
+
+
+Just a reminder that to keep up to date with what’s happening across our K-12 St Andrew’s community, visit our facebook page. It’s updated daily during term time with news, photos, events and videos.
+
+
+If you have any further questions regarding Year 7, 2019 please let us know.
+
+Best regards
+
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

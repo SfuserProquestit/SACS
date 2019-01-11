@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>email sent a couple days before tour to confirm attendance at Claremont Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Claremont confirmation email</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School: Tour Booking Confirmation</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+
+I am writing to confirm that you are attending our  {!Lead.School_Tour_Date__c} at 9.00am, Ground Floor, St Andrew&apos;s House, Sydney Square, Sydney (opposite the main entrance to St Andrew&apos;s Cathedral -  refer map attached). You will be greeted by our staff in the Foyer on arrival.
+
+
+
+
+Tea, coffee and refreshments will be served from 8.45am.
+
+
+
+
+The tour commences at 9.00am with a welcome from our Head of School, Dr Collier, followed by a tour of the School facilities at both St Andrew&apos;s House and our Senior College on Druitt Street.
+
+
+
+
+It is anticipated that the tour will conclude by 10.30am.
+
+
+
+
+
+
+To assist in the organisation of the tour, could you please advise:
+
+
+
+
+1. Names and number of people attending;
+
+
+
+
+2. If you will be attending with small children or a stroller;
+
+
+
+
+3. Academic Year and Calendar Year you are considering for your child;
+
+
+
+
+4. How you found out about St Andrew’s Cathedral School; and
+
+
+
+
+5. Anything you would like covered on the talk or tour.
+
+
+
+
+Please note it is important that you confirm your attendance.
+
+
+
+
+Kindest regards
+
+
+
+
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

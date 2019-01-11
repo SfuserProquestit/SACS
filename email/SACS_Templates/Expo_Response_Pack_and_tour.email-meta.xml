@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response to Expo visitors asking for address so we can send a pack</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Expo Response Pack and tour</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School: Thank you for visiting us at Expo!</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+Thank you for visiting St Andrew&apos;s Cathedral school at the North Shore Schools Expo on the weekend.  I hope you found the Expo insightful and were able to have all of your questions answered.
+
+
+I do apologise that were out of information packs - while we are certainly happy with the demand, I&apos;m sorry you missed out on getting your information on the day.  Can you please advise of your postal address so we can send out a pack to you ASAP.
+
+
+In the meantime, I would like to invite you to our next Head of School Tour on Tuesday 22 July  at 9.00am.  It&apos;s a great way to visit the school, meet our staff and current students and discover the uniqueness of our vibrant city school.
+
+
+If you are able to come along on the tour, please let us know by replying to this email.
+
+
+In the meantime, you can find out what’s happening here at our St Andrew’s community by visiting our website,  facebook page and our official youtube channel. They’re updated daily during term time with news, photos, events and mini videos.
+
+
+I look forward to welcoming you and your family to St Andrew&apos;s Cathedral School.
+
+
+Regards
+
+
+
+Bruce Perry
+Registrar
+
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  bperry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

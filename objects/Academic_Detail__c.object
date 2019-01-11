@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Academic_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Academic Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Year 1</fullName>
+                    <default>false</default>
+                    <label>Year 1</label>
+                </value>
+                <value>
+                    <fullName>Year 2</fullName>
+                    <default>false</default>
+                    <label>Year 2</label>
+                </value>
+                <value>
+                    <fullName>Year 3</fullName>
+                    <default>false</default>
+                    <label>Year 3</label>
+                </value>
+                <value>
+                    <fullName>Year 4</fullName>
+                    <default>false</default>
+                    <label>Year 4</label>
+                </value>
+                <value>
+                    <fullName>Year 5</fullName>
+                    <default>false</default>
+                    <label>Year 5</label>
+                </value>
+                <value>
+                    <fullName>Year 6</fullName>
+                    <default>false</default>
+                    <label>Year 6</label>
+                </value>
+                <value>
+                    <fullName>Year 7</fullName>
+                    <default>false</default>
+                    <label>Year 7</label>
+                </value>
+                <value>
+                    <fullName>Year 8</fullName>
+                    <default>false</default>
+                    <label>Year 8</label>
+                </value>
+                <value>
+                    <fullName>Year 9</fullName>
+                    <default>false</default>
+                    <label>Year 9</label>
+                </value>
+                <value>
+                    <fullName>Year 10</fullName>
+                    <default>false</default>
+                    <label>Year 10</label>
+                </value>
+                <value>
+                    <fullName>Year 11</fullName>
+                    <default>false</default>
+                    <label>Year 11</label>
+                </value>
+                <value>
+                    <fullName>Year 12</fullName>
+                    <default>false</default>
+                    <label>Year 12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Academic Details</relationshipLabel>
+        <relationshipName>Academic_Details</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Current_School_Level__c</fullName>
+        <description>This picklist will give the current school level in which the student is studying.</description>
+        <externalId>false</externalId>
+        <label>Current School Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-School</fullName>
+                    <default>false</default>
+                    <label>Pre-School</label>
+                </value>
+                <value>
+                    <fullName>Primary School</fullName>
+                    <default>false</default>
+                    <label>Primary School</label>
+                </value>
+                <value>
+                    <fullName>High School</fullName>
+                    <default>false</default>
+                    <label>High School</label>
+                </value>
+                <value>
+                    <fullName>ESL College</fullName>
+                    <default>false</default>
+                    <label>ESL College</label>
+                </value>
+                <value>
+                    <fullName>International</fullName>
+                    <default>false</default>
+                    <label>International</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Current__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Current</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Learning_Areas__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Student’s learning areas of need (academic or social)</inlineHelpText>
+        <label>Learning Areas</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Learning_Strengths__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Student’s learning strengths (academic or social)</inlineHelpText>
+        <label>Learning Strengths</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Musical_Instrument__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Do you sing or play a musical instrument? If so, which, how long and what grades have you attained?</inlineHelpText>
+        <label>Musical Instrument</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Outstanding_Achievement__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Have you received an Outstanding Achievement or won an award for anything (eg Sports / Academic) over the past two years? If so, what?</inlineHelpText>
+        <label>Outstanding Achievement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>School_Name_Old__c</fullName>
+        <externalId>false</externalId>
+        <label>School Name Old</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>School_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>School Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Only account with record type stakeholder can be added.</errorMessage>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Stakeholder</value>
+            </filterItems>
+            <infoMessage>Only account with record type stakeholder can be added.</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Academic Details</relationshipLabel>
+        <relationshipName>Academic_Details</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Special_Needs__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Needs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Academic Detail</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{0000000}</displayFormat>
+        <label>Academic Detail Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Academic Details</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Academic_Year</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( Current__c ==true,  ISBLANK( TEXT( Academic_Year__c ) ) ,false)</errorConditionFormula>
+        <errorDisplayField>Academic_Year__c</errorDisplayField>
+        <errorMessage>Academic Year is Mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>Current__c ==FALSE &amp;&amp;  ISBLANK( End_Date__c )</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>End Date is Mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>School_Name_mandatory</fullName>
+        <active>true</active>
+        <description>School Name is mandatory when current check-box is ticked.</description>
+        <errorConditionFormula>IF( Current__c ==true, ISBLANK( School_Name__c ) , false)</errorConditionFormula>
+        <errorMessage>School Name is Mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Start_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( Current__c ==true, ISBLANK(  Start_Date__c  ) , false)</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>Start Date is Mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Start_date_less_than_end_date</fullName>
+        <active>true</active>
+        <description>When the records are saved then start date should be saved as less than end date</description>
+        <errorConditionFormula>Start_Date__c &gt;= End_Date__c</errorConditionFormula>
+        <errorMessage>Start Date cannot be greater than End Date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Helen Acknowledgement Application Letter</name>
+    <style>formalLetter</style>
+    <subject>Acknowledgement Application Letter</subject>
+    <textOnly>{!Opportunity.CreatedDate}
+
+Dear {!Opportunity.Name},
+
+
+
+Application for Enrolment
+{!Opportunity.Application_Received_Date__c}
+
+Thank you for considering St Andrew&apos;s Cathedral School for {!Opportunity.Student_Name__c}&apos;s important educational and personal development. We acknowledge receipt of the non-refundable Application Fee of $200.00.
+
+The next step in the enrolment process is an interview with the Registrar. You will be contacted approximately one to two years prior to entry to make an appointment.
+
+If you would like any further clarification in relation to your application, please do not hesitate to contact me on 9286 9579
+
+
+
+Yours Sincerely
+
+
+Gail Zietsch
+Enrolment Assistant</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

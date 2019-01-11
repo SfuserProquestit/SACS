@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Future Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Future Students</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Future Student Currency</value>
+        </caseValues>
+        <name>opportunity_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Future Student Division</value>
+        </caseValues>
+        <name>opportunity_division</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Future Student Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Opportunity Names</value>
+        </caseValues>
+        <name>opportunity_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Future Student Owner</value>
+        </caseValues>
+        <name>opportunity_owner</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

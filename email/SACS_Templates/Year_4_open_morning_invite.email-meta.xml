@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to year 4 open morning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Year 4 open morning invite</name>
+    <style>freeForm</style>
+    <subject>Message from the Registrar: Year 4 Open Morning - Be More in Year 4!</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+I am delighted to announce that, due to popular demand, we are expanding our Year 4 cohort by another class in 2019!
+
+
+Many families choose to start at St Andrew’s in Year 4, enabling an earlier transition to our Junior School, making friends and accessing the world of opportunities on offer.
+
+
+I warmly invite you and your child to join us for a special Year 4 Open Morning on Tuesday 30 October at 9.00am. During your visit you will participate in classroom activities, tour our specialist music and science facilities and meet our wonderful staff and students.
+
+
+To book a place, just reply to this email or book in directly via our website at https://www.sacs.nsw.edu.au/events/be-more-in-year-4/.
+
+
+I do hope you can join us for our Year 4 Open Morning and discover how you can
+Be More in Year 4!
+
+
+Kind regards
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+
+
+Discover a world of opportunities! Year 4 at St Andrew’s Cathedral School provides:
+
+Experienced teachers that share their skills with enthusiasm
+Diverse, globally focused city campus
+Safe and caring environment
+Fully coeducational environment
+Specialist teachers in music, languages (Mandarin and Wiradjuri), Science, sport and art
+Access to high school facilities including performance spaces, science labs and sports fields
+Individualised attention in small class sizes – maximum 20 students per class. Separate accelerated classes
+
+Before school care from 6.30am, after school care to 6.00pm and vacation care Separate accelerated classes to support gifted learners
+Extensive co-curricular opportunities, including coding, dance, theatre, music ensembles, chess and philosophy
+Authentic Christian values
+A welcoming, inclusive School community with a sense of belonging
+A vibrant learning environment where students that take pride in their character
+
+
+Start your Junior School journey in 2019!
+
+
+
+
+
+You are receiving this invitation as you have previously indicated interest in enrolment at St Andrew’s Cathedral School.  We would love you to come to along on our Year 4 Open Morning however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

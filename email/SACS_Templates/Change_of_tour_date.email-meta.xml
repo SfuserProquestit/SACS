@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>change of tour date</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Change of tour date</name>
+    <style>formalLetter</style>
+    <subject>Change of Date: Head of School Tour NOW TUES 18 AUGUST</subject>
+    <textOnly>{!Lead.CreatedDate}
+
+Dear {!Lead.FirstName},
+
+I refer to your booking on our Head of School Tour on 25 August.
+
+Due to unforseen circumstances, the tour has been moved to Tuesday 18 August.
+
+We will be in touch closer to the date to remind you and provide further details.
+
+We apologise for any inconvenience this may have caused and look forward to welcoming you on tour on 18 August.
+
+
+Yours Sincerely,
+
+Robyn Pedley
+Enrolment Assistant</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

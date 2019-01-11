@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Standard email with Robyn&apos;s signature</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>JS Tour Didn&apos;t attend</name>
+    <style>freeForm</style>
+    <subject>St Andrew&apos;s Cathedral School</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+
+
+
+It&apos;s unfortunate you were unable to attend our recent Junior School tour. We run tours regularly, so if you would like the opportunity to visit again, please feel free to book via our website at www.sacs.nsw.edu.au.
+
+
+
+If you wish to apply for enrolment, the next step in the process is to complete and submit the attached Application for Enrolment form. We will then invite you in for an enrolment interview with our Head of Junior School, Mrs Rhonda Robson approximately 12 months prior to commencing at the school. Once we have your details on our database, we will keep in contact with you by providing links to our school newsletters and invitations to any relevant upcoming events.
+
+
+
+
+If your application is for commencement within the next 12 months, please contact us for an immediate enrolment interview so you can be included in the intake for that year (subject to availability).
+
+
+
+
+If you have any further questions, please feel free to contact any of our Enrolments staff on 9286 9500.
+
+
+
+In the meantime you can keep up to date with what’s happening at the School via our Facebook page and more videos on our official Youtube channel.
+
+
+
+
+We look forward to hearing from you and thank you for considering St Andrew’s Cathedral School for your child’s important education and development.
+
+
+
+
+Regards
+
+
+
+
+
+
+
+Robyn Pedley
+Enrolments Manager
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

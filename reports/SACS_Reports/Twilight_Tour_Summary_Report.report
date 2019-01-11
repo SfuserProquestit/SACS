@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Lead.No_of_People_Attending__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Other_Tour_Attendee_Name__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Creche_no__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Year_of_Entry__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Special_Interests_Needs_Comments__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Referred_By__c</field>
+    </columns>
+    <description>Full list of responses including those that did not attend</description>
+    <filter>
+        <criteriaItems>
+            <column>Lead.School_Tour_Date__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Twilight Tour Wednesday 3 April 2013</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Twilight Tour Summary Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>FIRST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ask tour attendees to complete survey of the Senior College Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>SCT Survey</name>
+    <style>formalLetter</style>
+    <subject>Senior College Tour: Tell us what you think</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+
+
+
+Tell us what you think!
+
+
+We would love your feedback on our recent Senior College Tour - please complete this quick survey - https://www.surveymonkey.com/r/SeniorCollegeTour.
+
+
+
+
+
+
+Regards
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+phone 02 92869507 email BPerry@sacs.nsw.edu.au</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

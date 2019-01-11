@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to  Sydney Learning Festival - FOLLOW UP REMINDER</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Sydney Leaning Festival Invite REMINDER</name>
+    <style>freeForm</style>
+    <subject>Sydney Learning Festival - Register today! Bookings closing soon....</subject>
+    <textOnly>2016 Sydney Learning Festival
+Year 4 through to Year 8
+
+Monday 26 - Tuesday 27 September, 2016
+
+
+
+Quick! Boookings closing soon...
+
+
+
+Holidays are almost upon us which means the Sydney Learning Festival is almost here! St Andrew’s will be welcoming students in Year 4 to Year 8 from all over Sydney to this tool-tinkering, discussion-starting festival on Monday 26 and Tuesday 27 September.
+
+
+Check out our newly launched video on our homepage:
+
+www.sydneylearningfestival.com.au
+
+
+
+Facebook: https://www.facebook.com/sydneylearningfestival/
+
+
+
+We will be posting more updates over the coming week.
+
+
+The festival features Jason Perini who just returned from LA where he has been working on his latest film, The New Empress (https://vimeo.com/178870167), with Maggie Gyllenhaal and Kevin Spacey. Students will also hear from Rachel Cole who is currently on tour with MATILDA The Musical.
+
+
+Book a festival pass today at www.sydneylearningfestival.com.au
+
+
+Regards
+
+
+
+
+
+
+Bruce Perry
+
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550
+
+
+You are receiving this invitation as you have previously contacted St Andrew’s Cathedral School.  We would love you to come to along on our Sydney Learning Festival however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,21 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Lead.CreatedDate}<br><br>Dear {!Lead.FirstName},<br><font face="Times New Roman">
+
+</font><p style="margin: 0cm 0cm 10pt;" class="MsoNormal"><font face="Arial,Sans-Serif">Thank you for considering St Andrews Cathedral School for
+your child’s education and development.<span style="mso-spacerun: yes;">&nbsp;
+As requested, you </span>have been booked into the Head of School Tour on {!Lead.School_Tour_Date__c} and we will email one week
+prior to remind you and provide&nbsp;further details.<span style="mso-spacerun: yes;">&nbsp; </span></font></p><p style="margin: 0cm 0cm 10pt;" class="MsoNormal"><font face="Arial,Sans-Serif">In the meantime, if there's anything else we can help you with, please </font><font face="Arial,Sans-Serif">do not hesitate to contact us.</font><font face="Arial,Sans-Serif"></font></p><font face="Arial,Sans-Serif"><p style="margin: 0cm 0cm 10pt;" class="MsoNormal">To keep up to date with what’s happening across our K-12 St Andrew’s community, visit our<a href="https://www.facebook.com/StAndrewsCathedralSchool"><font color="#0000ff"> facebook</font></a>page.<span style="mso-spacerun: yes;">  </span>It’s updated daily during term time with news, photos, events and mini videos.<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></p><o:p></o:p></font><font face="Arial,Sans-Serif">
+
+</font><span class="fn org">Yours Sincerely,<br><br>Robyn Pedley<br><b>Enrolment Assistant</b><br></span>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

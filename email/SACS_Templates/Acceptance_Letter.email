@@ -1,0 +1,32 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Opportunity.CreatedDate}
+<br>
+<br>Dear {!Opportunity.Name},
+<br>
+<br>I am very please that you have accepted the Head of School's offer 
+and enrolled {!Opportunity.Student_Name__c} at St Andrew's Cathedral 
+School commencing in {!Opportunity.Enrolment_Date__c}.
+<br>
+<br>I wish to acknowledge receipt of the payment of the non-refundable Enrolment Fee of $2,500.00.
+<br>
+<br>I look forward to {!Opportunity.Student_Name__c}'s contribution to 
+the life of the school and wish him/her every success for his/her years 
+with us.
+<br>
+<br>Yours Sincerely
+<br>
+<br>
+<br><b><br><br><br><br></b><div align="center"><b>Bruce Perry
+</b><br><font size="2">B.Ed., MACE,ADAPEM</font><br><br><b>REGISTRAR</b><br></div>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

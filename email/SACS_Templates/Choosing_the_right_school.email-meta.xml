@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>email to Directors offering choosing the right school presentation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Choosing the right school</name>
+    <style>freeForm</style>
+    <subject>How to choose the right school...</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+
+I&apos;ve been speaking with pre-school parents recently regarding &quot;choosing the right school for your child&quot;.  As someone who went through the Kindergarten enrolment process myself last year (and also works in enrolments at a school), I can provide an objective overview on how to evaluate and select a school.
+
+
+I would love to come and present to the parents of {!Account.Name} and provide an unbiased guide to school selection criteria and enrolment processes.  I can also bring along a copy of &quot;101 Questions to ask your school&quot; which provide a list of questions for parents to ask potential schools.
+
+
+I can present at your centre during lunchtime or do an evening presentation. Please note: this is not a marketing activity of St Andrew&apos;s, nor does my presentation contain any advertising for the school.  It&apos;s just objective advice provided with insider knowledge!
+
+
+If you would like me to present at your centre, just contact me and we will arrange a time.
+
+
+Regards
+
+Robyn
+
+
+
+&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+
+Robyn Pedley
+Enrolments Administrative Assistant
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+
+direct 9286 9552 mobile 0404 884 852 email  RPedley@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

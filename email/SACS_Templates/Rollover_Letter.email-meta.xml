@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>Rollover Letter</name>
+    <style>formalLetter</style>
+    <subject>Rollover Letter</subject>
+    <textOnly>{!Opportunity.CreatedDate}
+
+Dear {!Opportunity.Name},
+
+I wish to acknowledge and confirm your request to change {!Opportunity.Student_Name__c}&apos;s Application for Enrolment to entry in {!Opportunity.Future_Enrolment_Date__c}
+
+The application has been placed on the waiting list and will be subject to places being available.
+
+If you have any further queries, please do not hesitate to contact me on 9286 9579
+
+Yours Sincerely
+
+Gail Zietsch
+Enrolment Assistant</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

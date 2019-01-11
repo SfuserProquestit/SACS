@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent following the tour to those who didn&apos;t attended</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Rollover_Letter</letterhead>
+    <name>HOS  Did not attend DNA</name>
+    <style>formalLetter</style>
+    <subject>Head of School Tour</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+
+It&apos;s unfortunate that you were unable to visit St Andrew’s for our recent Head of School Tour.  We run the tours regularly, so if you would like the opportunity to visit again, please feel free to book via our website at https://www.sacs.nsw.edu.au/events/.
+
+
+Alternatively, if you would like to book in for a private tour at a time that is more convenient to you, please feel free to contact me directly to arrange one.
+
+
+In the meantime, you can keep up-to-date with what’s happening at the School via our website, Facebook page and you can view more videos on our official YouTube channel at http://www.youtube.com/user/StAndrewsOfficial
+
+
+We look forward to hearing from you and thank you for considering St Andrew’s Cathedral School for your child’s education and development.
+
+
+Regards
+
+
+Bruce Perry
+
+Registrar/IB Mathematics Teacher
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9579 email bperry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

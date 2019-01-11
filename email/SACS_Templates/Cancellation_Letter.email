@@ -1,0 +1,33 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Opportunity.CreatedDate}
+<br>
+<br>Dear {!Opportunity.Name},
+<br>
+<br>Thank you for considering St Andrew's Cathedral School for 
+{!Opportunity.Student_Name__c}'s education and development. I am sorry 
+to learn you will not be proceeding with his/her enrolment application.
+<br>
+<br>I would like to take this opportunity to wish 
+{!Opportunity.Student_Name__c} every success for his/her future 
+endeavours. If during his/her schooling you find his/her needs are not 
+being met, please do not hesitate to contact me again if I can be of any
+ assistance.
+<br>
+<br>Yours Sincerely
+<br>
+<br><b>
+<br><br><br><br><br></b><div align="center"><b><br><br><br>Bruce Perry
+</b><br><font size="2">B.Ed., MACE,ADAPEM</font><br><b>
+</b><br><b>REGISTRAR</b><br></div>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

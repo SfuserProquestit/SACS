@@ -1,0 +1,47 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[{!Opportunity.CreatedDate}
+<br>
+<br>Dear {!Opportunity.Name},
+<br>
+<br>I am writing to offer your son {!Opportunity.Student_Name__c} a 
+place at St Andrew's Cathedral school in {!Opportunity.Offer_Date__c}.
+<br>
+<br>{!Opportunity.Student_Name__c}'s enrolment is contingent upon the 
+payment of the non-refundable Enrolment fee of $2,500 and completion of 
+the Acceptance of Offer of Enrolment attached.
+<br>
+<br>Please ensure:
+<br>You have signed the Terms and Conditions of Enrolment on Page 3
+<br>You and your child have signed The School Code of Behaviour on Page 13
+<br>You and your child have signed the Policy of Acceptable Use of Computers on Page 14
+<br>You have completed the Emergency Contact Details on Page 15
+<br>You have completed the Data Collection on Page 16
+<br>You have read the Supplementary Information on Page 18.
+<br>
+<br>Please return one copy and retain one copy for your records.
+<br>
+<br>I feel sure that {!Opportunity.Student_Name__c} will settle happily 
+into the new environment at St Andrew's. I look forward to your written 
+acknowledgement of his enrolment as soon as possible.
+<br>
+<br>Yours Faithfully
+<br>
+<br>
+<br><b>Bruce Perry</b>
+<br><font size="2">BEd, Dip Teach
+</font><br>
+<br><b>Registrar
+</b><br>
+<br>(For)]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

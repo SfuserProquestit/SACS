@@ -1,0 +1,15 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<font face="arial">{!Lead.CreatedDate}</font><br><br><font face="arial">Dear {!Lead.FirstName},</font><br><font face="arial"></font>
+<p class="MsoNormal" style="font-family: arial; margin: 0cm 0cm 10pt;"><span style="font-size: 12pt;"><br></span></p><p class="MsoNormal" style="font-family: arial; margin: 0cm 0cm 10pt;"><span style="font-size: 12pt;">Thank you for confirming your attendance. We look forward to seeing you on tour tomorrow.</span></p><font face="Arial,Sans-Serif" style="font-family: arial;"><o:p></o:p></font><font face="arial"></font><span class="fn org" style="font-family: arial;">Regards<br><br>Robyn Pedley<br><b>Enrolment Assistant</b><br></span>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

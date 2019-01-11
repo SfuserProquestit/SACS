@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Acknowledge Application</fullName>
+        <default>false</default>
+        <label>Acknowledge Application</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call for Interview</fullName>
+        <default>false</default>
+        <label>Call for Interview</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call to Progress</fullName>
+        <default>false</default>
+        <label>Call to Progress</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-School Centre Visit</fullName>
+        <default>false</default>
+        <label>Pre-School Centre Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reminder to follow up</fullName>
+        <default>false</default>
+        <label>Reminder to follow up</label>
+    </standardValue>
+</StandardValueSet>

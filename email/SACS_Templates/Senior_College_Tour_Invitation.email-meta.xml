@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to Senior College Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_logo</letterhead>
+    <name>Senior College Tour Invitation</name>
+    <style>freeForm</style>
+    <subject>Senior College Tour 12 June, 2018: Make your final school years count!</subject>
+    <textOnly>Dear {!Lead.FirstName}
+
+
+I&apos;m delighted to invite you along to our upcoming Senior College Tour on Tuesday 12 June. It&apos;s a fantastic opportunity for you and your child to visit the School, tour the facilities, meet our Year 12 leaders and Senior College staff.  Details below.
+
+
+Bookings are essential.  Please book your place via our website at http://www.sacs.nsw.edu.au/tourselect/1096.
+
+
+I look forward to welcoming you on the day.
+
+
+Regards
+
+Bruce Perry
+
+Registrar
+
+
+_______________________________________________________
+
+
+Step up into our
+Senior College
+
+Independence - Flexibility - Real-world Learning
+
+
+Make your final school years count in a learning environment that provides you with amazing choice
+
+Dynamic, coeducational environment in the heart of Sydney&apos;s CBD;
+Greater independence and more responsibility;
+Diverse learning options and subject choices through HSC or IB;
+Global learning through interactive technologies and international educational tours.
+
+Tuesday 12 June, 2018
+
+9:00am to 10.30am
+
+St Andrew&apos;s House, Sydney Square, Sydney
+
+Bookings: https://www.sacs.nsw.edu.au/book-a-tour/tour-bookings/
+
+
+Come along and see for yourself what makes our city school so special.  Reserve a place on our Senior College Tour and find out first hand from student guides what St Andrew&apos;s can offer.
+
+
+
+
+Bruce Perry
+Registrar/Mathematics Teacher
+
+
+St Andrew&apos;s Cathedral School
+
+Sydney Square, Sydney NSW 2000, Australia
+direct +61 2 9286 9507 mobile 0418 255 923 email BPerry@sacs.nsw.edu.au
+phone +61 2 9286 9500 fax +61 29286 9550
+
+
+
+
+You are receiving this invitation as you have previously indicated interest in enrolment at St Andrew’s Cathedral School.  We would love you to come to along on our Senior College Tour however, if you would like to unsubscribe from further invitations, please click here.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
